@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Henipavirus vaccine development pathway dashboard"
+message: "If you use this dashboard package, cite the repository and the public sources linked in the row-level data."
+type: software
+version: 1.0.0
+date-released: 2026-06-10
+license: MIT

@@ -1,0 +1,14 @@
+[project]
+name = "henipavirus-dashboard-updater"
+version = "1.0.0"
+description = "Self-updating static Henipavirus vaccine development dashboard for GitHub Pages"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "PyYAML>=6.0",
+  "requests>=2.32",
+]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+addopts = "-q"
