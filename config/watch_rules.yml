@@ -1,0 +1,36 @@
+schema_version: 1.0.0
+http:
+  timeout_seconds: 25
+  max_bytes_per_page: 500000
+  user_agent: 'HenipavirusDashboardBot/1.0 (+https://github.com/OWNER/REPO; contact: maintainer@example.com)'
+review_flags:
+  broken_source_status_codes:
+  - 400
+  - 401
+  - 403
+  - 404
+  - 410
+  - 500
+  - 502
+  - 503
+  - 504
+  warn_if_source_title_contains:
+  - '404'
+  - not found
+  - access denied
+  - page unavailable
+  - error
+  clinical_registry_terminal_statuses:
+  - COMPLETED
+  - TERMINATED
+  - WITHDRAWN
+  - SUSPENDED
+  clinical_registry_active_statuses:
+  - RECRUITING
+  - NOT_YET_RECRUITING
+  - ACTIVE_NOT_RECRUITING
+  - ENROLLING_BY_INVITATION
+output:
+  commit_generated_reports: true
+  write_source_checks_csv: true
+  write_registry_status_json: true
