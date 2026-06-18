@@ -1,0 +1,39 @@
+name: Curation update
+about: Suggest a row, source, stage change, or review flag resolution.
+title: "Curation update: "
+labels: ["curation"]
+body:
+  - type: input
+    id: candidate
+    attributes:
+      label: Candidate or dashboard row
+      placeholder: "e.g., PHV02"
+    validations:
+      required: true
+  - type: dropdown
+    id: update_type
+    attributes:
+      label: Update type
+      options:
+        - New source
+        - Stage review
+        - Broken link
+        - New candidate / row
+        - Remove or revise row
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and source URLs
+      description: Include public URLs, registry IDs, DOI/PMID, and why the change is warranted.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed dashboard change
+      description: Describe the exact row and field changes you recommend.
+    validations:
+      required: true
