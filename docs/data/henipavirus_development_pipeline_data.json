@@ -1,0 +1,1022 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-10T18:15:44Z",
+  "generated_by": "scripts/update_dashboard_data.py",
+  "update_mode": "offline_skip_network",
+  "dashboard_title": "Henipavirus Vaccine Development Pathway Dashboard",
+  "curation_policy": {
+    "highest_supported_stage": "Rows are placed in the highest maturity stage supported by public evidence.",
+    "human_vs_veterinary": "Human and veterinary indications are separated in notes; veterinary licensure is not human licensure.",
+    "gap_definition": "Gap lanes mean no public pathway was identified from configured sources, not proof of unpublished absence.",
+    "auto_update_scope": "Automation refreshes registry metadata, source availability, source titles, and review flags; it does not silently promote curated stages without human review."
+  },
+  "stages": [
+    {
+      "key": "gap",
+      "label": "No dedicated clinical pathway",
+      "order": 0,
+      "description": "No public target-specific vaccine pathway found; source-backed gap lane, not evidence of unpublished absence.",
+      "css_class": "stage-gap"
+    },
+    {
+      "key": "surveillance",
+      "label": "Discovery / surveillance",
+      "order": 1,
+      "description": "Virus discovery, receptor/tropism, taxonomy, or risk-characterization work without a vaccine candidate.",
+      "css_class": "stage-surveillance"
+    },
+    {
+      "key": "preclinical",
+      "label": "Preclinical efficacy / platform evidence",
+      "order": 2,
+      "description": "Animal or platform evidence, including challenge-model protection, without verified human clinical entry.",
+      "css_class": "stage-preclinical"
+    },
+    {
+      "key": "phase1",
+      "label": "Phase 1 / first-in-human",
+      "order": 3,
+      "description": "First-in-human or early clinical development publicly scheduled, registered, or underway.",
+      "css_class": "stage-phase1"
+    },
+    {
+      "key": "phase1_complete",
+      "label": "Phase 1 complete / immune-bridge work",
+      "order": 4,
+      "description": "Phase 1 completed or published; next work is dose selection, bridging, or affected-area development.",
+      "css_class": "stage-phase1_complete"
+    },
+    {
+      "key": "phase2",
+      "label": "Phase 2 / affected-area trial",
+      "order": 5,
+      "description": "Mid-stage or affected-area clinical testing is funded, planned, registered, or launched.",
+      "css_class": "stage-phase2"
+    },
+    {
+      "key": "reserve",
+      "label": "Reserve / emergency-use readiness",
+      "order": 6,
+      "description": "Investigational reserve or outbreak-readiness manufacturing exists, distinct from licensure.",
+      "css_class": "stage-reserve"
+    },
+    {
+      "key": "licensed",
+      "label": "Licensed / One Health deployment",
+      "order": 7,
+      "description": "Licensed/deployed product in its stated indication; veterinary rows are not human licensure.",
+      "css_class": "stage-licensed"
+    }
+  ],
+  "records": [
+    {
+      "id": "niv-chadox1-reserve",
+      "candidate": "ChAdOx1 NipahB",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus",
+      "stage": "Reserve / emergency-use readiness",
+      "stage_key": "reserve",
+      "stage_order": 6,
+      "platform": "Non-replicating ChAdOx1 simian adenoviral vector",
+      "sponsor_or_steward": "University of Oxford, CEPI, icddr,b, Serum Institute of India",
+      "setting": "Bangladesh Phase IIa trial; investigational ready reserve stored by SII",
+      "status_summary": "World-first Phase II Nipah vaccine trial launched in Bangladesh; SII reserve manufacturing planned for up to 100,000 investigational doses that could be used under emergency-use conditions.",
+      "next_milestone_or_gap": "Phase II safety/immunogenicity readout, continued assay/correlate development, and reserve governance for outbreak deployment.",
+      "evidence_class": "Public clinical development + reserve manufacturing",
+      "is_gap": false,
+      "is_clinical": true,
+      "curation_note": "Mapped above Phase II because a public investigational reserve manufacturing commitment is part of the same development path; this is not licensure.",
+      "lineage_or_scope": "Bangladesh exposure setting / NiV-B immunogen",
+      "sources": [
+        {
+          "title": "CEPI Phase II launch; CEPI investigational reserve",
+          "url": "https://cepi.net/university-oxford-launches-worlds-first-phase-ii-nipah-virus-vaccine-trial"
+        },
+        {
+          "title": "ISRCTN87634044 ChAdOx1 NipahB registry",
+          "url": "https://cepi.net/establishing-worlds-largest-nipah-virus-vaccine-reserve"
+        },
+        {
+          "title": "https://www.isrctn.com/ISRCTN87634044",
+          "url": "https://www.isrctn.com/ISRCTN87634044"
+        }
+      ],
+      "registry_watch": [
+        {
+          "system": "ISRCTN",
+          "type": "isrctn",
+          "id": "ISRCTN87634044",
+          "url": "https://www.isrctn.com/ISRCTN87634044"
+        }
+      ],
+      "curation_lock": true,
+      "registry_statuses": [
+        {
+          "system": "ISRCTN",
+          "type": "isrctn",
+          "id": "ISRCTN87634044",
+          "url": "https://www.isrctn.com/ISRCTN87634044",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "niv-phv02-phase2",
+      "candidate": "PHV02",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus",
+      "stage": "Phase 2 / affected-area trial",
+      "stage_key": "phase2",
+      "stage_order": 5,
+      "platform": "Live attenuated recombinant vesicular stomatitis virus vector expressing NiV-B G and Ebola GP",
+      "sponsor_or_steward": "Public Health Vaccines, CEPI, NIAID originator technology",
+      "setting": "Phase II Bangladesh trial funded/planned; stockpile option if successful and approved",
+      "status_summary": "CEPI announced US$17.3M to support mid-stage testing in Bangladesh after Phase Ia/Ib safety and immunogenicity; the planned study targets about 500 adults and 75 paediatric participants.",
+      "next_milestone_or_gap": "Verify launch/recruitment status, then Phase II safety, tolerability, manufacturability, and immunogenicity data.",
+      "evidence_class": "Phase II funded/planned; Phase I/IB complete",
+      "is_gap": false,
+      "is_clinical": true,
+      "curation_note": "Public sources checked support “Phase II funded/planned”; the dashboard does not claim a verified Phase II recruitment start.",
+      "lineage_or_scope": "Bangladesh strain glycoprotein; potentially single-dose rVSV candidate",
+      "sources": [
+        {
+          "title": "CEPI PHV02 mid-stage trial announcement; PHV product page; ClinicalTrials.gov NCT05178901/NCT06221813",
+          "url": "https://cepi.net/new-vaccine-set-human-trials-nipah-outbreak-hotspot"
+        },
+        {
+          "title": "https://phvaccines.com/PHV02.html",
+          "url": "https://phvaccines.com/PHV02.html"
+        },
+        {
+          "title": "https://clinicaltrials.gov/study/NCT05178901",
+          "url": "https://clinicaltrials.gov/study/NCT05178901"
+        },
+        {
+          "title": "https://clinicaltrials.gov/study/NCT06221813",
+          "url": "https://clinicaltrials.gov/study/NCT06221813"
+        }
+      ],
+      "registry_watch": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT05178901",
+          "url": "https://clinicaltrials.gov/study/NCT05178901"
+        },
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT06221813",
+          "url": "https://clinicaltrials.gov/study/NCT06221813"
+        }
+      ],
+      "curation_lock": true,
+      "registry_statuses": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT05178901",
+          "url": "https://clinicaltrials.gov/study/NCT05178901",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        },
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT06221813",
+          "url": "https://clinicaltrials.gov/study/NCT06221813",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "niv-hev-sg-phase1complete",
+      "candidate": "HeV-sG-V / HenipaVax™",
+      "species": "Henipavirus nipahense / Henipavirus hendraense",
+      "virus": "Nipah virus; Hendra cross-protective antigen",
+      "stage": "Phase 1 complete / immune-bridge work",
+      "stage_key": "phase1_complete",
+      "stage_order": 4,
+      "platform": "Recombinant soluble Hendra virus G glycoprotein subunit with alum adjuvant",
+      "sponsor_or_steward": "Auro Vaccines, PATH, CEPI; original USU/HJF technology",
+      "setting": "US Phase 1 completed/published; potential reactive outbreak-control use case",
+      "status_summary": "Phase 1 adult study is completed and published; reported interpretation was that tested doses/regimens were safe and immunogenic, with preclinical rationale for cross-protection across Nipah and Hendra.",
+      "next_milestone_or_gap": "Define dose/regimen, immune correlates, and affected-area or immune-bridging development pathway.",
+      "evidence_class": "Published Phase 1 + animal cross-protection",
+      "is_gap": false,
+      "is_clinical": true,
+      "curation_note": "Shown under Nipah clinical development because the human trial indication is Nipah; also tagged to Hendra because the antigen and animal-protection rationale are Hendra/Nipah cross-protective.",
+      "lineage_or_scope": "Hendra soluble G antigen evaluated as a Nipah vaccine; preclinical protection against NiV and HeV",
+      "sources": [
+        {
+          "title": "CEPI first Phase 1 announcement; Lancet/PubMed phase 1 record; ClinicalTrials.gov NCT04199169; npj Vaccines single-dose NHP evidence",
+          "url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/41248666/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41248666/"
+        },
+        {
+          "title": "https://clinicaltrials.gov/study/NCT04199169",
+          "url": "https://clinicaltrials.gov/study/NCT04199169"
+        },
+        {
+          "title": "https://www.nature.com/articles/s41541-021-00284-w",
+          "url": "https://www.nature.com/articles/s41541-021-00284-w"
+        }
+      ],
+      "registry_watch": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT04199169",
+          "url": "https://clinicaltrials.gov/study/NCT04199169"
+        }
+      ],
+      "curation_lock": true,
+      "registry_statuses": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT04199169",
+          "url": "https://clinicaltrials.gov/study/NCT04199169",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "niv-mrna1215-phase1complete",
+      "candidate": "mRNA-1215",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus",
+      "stage": "Phase 1 complete / immune-bridge work",
+      "stage_key": "phase1_complete",
+      "stage_order": 4,
+      "platform": "Lipid nanoparticle mRNA encoding chimeric pre-fusion F linked to G",
+      "sponsor_or_steward": "NIAID Vaccine Research Center, Moderna",
+      "setting": "US Phase 1; healthy adults",
+      "status_summary": "A 2026 Nature Medicine Phase 1 report found the vaccine safe and well tolerated in 40 adults, with no safety-related pauses or serious adverse events reported.",
+      "next_milestone_or_gap": "Larger endemic-region cohorts, dose/regimen selection, live-virus neutralization/correlate work, and development-pathway decision.",
+      "evidence_class": "Published Phase 1",
+      "is_gap": false,
+      "is_clinical": true,
+      "curation_note": "Mapped to Phase 1 complete because peer-reviewed first-in-human results were publicly available at build time.",
+      "lineage_or_scope": "NiV-M chimeric pre-fusion F/G design; potential cross-reactive henipavirus approach",
+      "sources": [
+        {
+          "title": "Nature Medicine phase 1 report; NIH launch announcement; ClinicalTrials.gov NCT05398796",
+          "url": "https://www.nature.com/articles/s41591-026-04265-1"
+        },
+        {
+          "title": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine",
+          "url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine"
+        },
+        {
+          "title": "https://clinicaltrials.gov/study/NCT05398796",
+          "url": "https://clinicaltrials.gov/study/NCT05398796"
+        }
+      ],
+      "registry_watch": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT05398796",
+          "url": "https://clinicaltrials.gov/study/NCT05398796"
+        }
+      ],
+      "curation_lock": true,
+      "registry_statuses": [
+        {
+          "system": "ClinicalTrials.gov",
+          "type": "clinicaltrials_gov",
+          "id": "NCT05398796",
+          "url": "https://clinicaltrials.gov/study/NCT05398796",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "niv-mvniv-phase1",
+      "candidate": "MV-NiV",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus",
+      "stage": "Phase 1 / first-in-human",
+      "stage_key": "phase1",
+      "stage_order": 3,
+      "platform": "Recombinant attenuated measles virus vector",
+      "sponsor_or_steward": "University of Tokyo, European Vaccine Initiative, SCARDA; prior CEPI support",
+      "setting": "Belgium first-in-human study scheduled for April 2026; Bangladesh Phase 1/2 planned",
+      "status_summary": "EVI announced support for first-in-human clinical development, with a Belgium Phase 1 trial scheduled to begin in April 2026 and later Phase 1/2 studies planned in Bangladesh.",
+      "next_milestone_or_gap": "Confirm first participant dosing/recruitment, then Phase 1 safety/immunogenicity readout.",
+      "evidence_class": "FIH scheduled / early clinical development",
+      "is_gap": false,
+      "is_clinical": true,
+      "curation_note": "Early clinical status is based on public announcement and trial registry listing; recruitment/completion status should be rechecked before operational decisions.",
+      "lineage_or_scope": "Recombinant measles vector expressing Nipah antigens",
+      "sources": [
+        {
+          "title": "EVI first-in-human trial announcement; EU CTIS public trial entry",
+          "url": "https://www.euvaccine.eu/post/evi-supports-first-in-human-clinical-trial-of-novel-nipah-virus-vaccine"
+        },
+        {
+          "title": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
+          "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en"
+        }
+      ],
+      "registry_watch": [
+        {
+          "system": "EU CTIS",
+          "type": "eu_ctis",
+          "id": "2025-522293-37-00",
+          "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en"
+        }
+      ],
+      "curation_lock": true,
+      "registry_statuses": [
+        {
+          "system": "EU CTIS",
+          "type": "eu_ctis",
+          "id": "2025-522293-37-00",
+          "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
+          "checked_at": "2026-06-10T18:15:44Z",
+          "ok": null,
+          "error": "network skipped"
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "id": "niv-cd40-preclinical",
+      "candidate": "CD40.NiV APC-targeted vaccine",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus",
+      "stage": "Preclinical efficacy / platform evidence",
+      "stage_key": "preclinical",
+      "stage_order": 2,
+      "platform": "Humanized anti-CD40 antibody fused to conserved Nipah epitopes",
+      "sponsor_or_steward": "Academic/public research consortium",
+      "setting": "African green monkey preclinical challenge model",
+      "status_summary": "Cell Reports Medicine reported immunogenicity and protective efficacy of a CD40-targeted multi-epitope Nipah vaccine in African green monkeys.",
+      "next_milestone_or_gap": "Translation package, manufacturability, toxicology, and decision on clinical-enabling investment.",
+      "evidence_class": "Preclinical nonhuman-primate protection",
+      "is_gap": false,
+      "is_clinical": false,
+      "curation_note": "Included as a notable preclinical platform row; not a verified clinical development programme.",
+      "lineage_or_scope": "Bangladesh-strain multi-epitope G/F/N design targeted to CD40 on antigen-presenting cells",
+      "sources": [
+        {
+          "title": "Cell Reports Medicine CD40.NiV; PubMed record",
+          "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00113-7"
+        },
+        {
+          "title": "https://pubmed.ncbi.nlm.nih.gov/38471503/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38471503/"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "niv-g-ferritin-preclinical",
+      "candidate": "NiV G-ferritin nanoparticle",
+      "species": "Henipavirus nipahense",
+      "virus": "Nipah virus; Hendra cross-neutralization signal",
+      "stage": "Preclinical efficacy / platform evidence",
+      "stage_key": "preclinical",
+      "stage_order": 2,
+      "platform": "Ferritin nanoparticle protein vaccine",
+      "sponsor_or_steward": "Academic research group",
+      "setting": "Mouse immunogenicity and Syrian hamster lethal-challenge studies",
+      "status_summary": "npj Vaccines reported complete protection in hamsters and faster/broader neutralizing responses against NiV-Malaysia, NiV-Bangladesh, and Hendra pseudovirus/assays compared with soluble NiV G.",
+      "next_milestone_or_gap": "Reproducibility, NHP studies, manufacturability, and clinical-enabling package if prioritized.",
+      "evidence_class": "Preclinical animal protection",
+      "is_gap": false,
+      "is_clinical": false,
+      "curation_note": "Included to show preclinical breadth and Hendra cross-neutralization signal; not a clinical product.",
+      "lineage_or_scope": "Nipah G head domain displayed on self-assembling ferritin nanoparticles",
+      "sources": [
+        {
+          "title": "npj Vaccines NiV G-ferritin nanoparticle",
+          "url": "https://www.nature.com/articles/s41541-024-00954-5"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "hnv-fc-broad-preclinical",
+      "candidate": "Fc-based broad henipavirus G-fusion constructs",
+      "species": "Broad henipavirus / near-neighbour scope",
+      "virus": "NiV, HeV, GhV, and historical MojV panel in mice",
+      "stage": "Preclinical efficacy / platform evidence",
+      "stage_key": "preclinical",
+      "stage_order": 2,
+      "platform": "Fc-fusion recombinant glycoprotein vaccine constructs",
+      "sponsor_or_steward": "Academic research group",
+      "setting": "Mouse immunogenicity / neutralization; not a clinical programme",
+      "status_summary": "Preclinical work reported broad antibody responses with multi-antigen Fc-fusion constructs, while highlighting limited cross-protection between some henipa-like groups.",
+      "next_milestone_or_gap": "Update antigen panel to current ICTV taxonomy, test against current species/provisional viruses, and define whether a pan-henipavirus target product profile is feasible.",
+      "evidence_class": "Preclinical broad-platform concept",
+      "is_gap": false,
+      "is_clinical": false,
+      "curation_note": "Shown as broad preclinical concept. MojV has been reclassified into Parahenipavirus in current taxonomy, so this row is not counted as a core Henipavirus species pathway.",
+      "lineage_or_scope": "Bivalent NiV/HeV and tetravalent G-protein Fc-fusion antigen designs",
+      "sources": [
+        {
+          "title": "Viruses/PMC Fc-based recombinant henipavirus vaccines; DOAJ summary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/"
+        },
+        {
+          "title": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4",
+          "url": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "hev-equivac-licensed",
+      "candidate": "Equivac® HeV",
+      "species": "Henipavirus hendraense",
+      "virus": "Hendra virus",
+      "stage": "Licensed / One Health deployment",
+      "stage_key": "licensed",
+      "stage_order": 7,
+      "platform": "Recombinant soluble Hendra virus G glycoprotein subunit",
+      "sponsor_or_steward": "Zoetis, CSIRO, Australian partners",
+      "setting": "Licensed veterinary vaccine for horses in Australia",
+      "status_summary": "CSIRO and partners launched Equivac HeV in November 2012; APVMA full registration was announced in August 2015. It is a veterinary vaccine, not a licensed human Hendra vaccine.",
+      "next_milestone_or_gap": "Maintain uptake, update surveillance for Hendra variants, and clarify whether human Hendra indications need dedicated development.",
+      "evidence_class": "Licensed veterinary One Health countermeasure",
+      "is_gap": false,
+      "is_clinical": false,
+      "curation_note": "Placed in licensed lane because the veterinary product is licensed and deployed. It should not be interpreted as a licensed human vaccine.",
+      "lineage_or_scope": "Horse vaccination to reduce equine disease and horse-to-human spillover risk",
+      "sources": [
+        {
+          "title": "CSIRO Hendra vaccine history; Zoetis APVMA registration release",
+          "url": "https://www.csiro.au/en/research/animals/livestock/hendra"
+        },
+        {
+          "title": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx",
+          "url": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "hev-human-gap",
+      "candidate": "Dedicated human Hendra indication",
+      "species": "Henipavirus hendraense",
+      "virus": "Hendra virus",
+      "stage": "No dedicated clinical pathway",
+      "stage_key": "gap",
+      "stage_order": 0,
+      "platform": "None publicly identified for a dedicated human Hendra label",
+      "sponsor_or_steward": "No dedicated public sponsor identified",
+      "setting": "Australia / occupational exposure context",
+      "status_summary": "A veterinary horse vaccine exists; public sources checked did not identify a dedicated human Hendra vaccine indication advancing separately from cross-protective Nipah/Hendra candidates.",
+      "next_milestone_or_gap": "Clarify target product profile and regulatory path if human Hendra vaccination is prioritized; evaluate whether HeV-sG-V or other cross-protective candidates can support a Hendra indication.",
+      "evidence_class": "Gap lane / no public clinical pathway found",
+      "is_gap": true,
+      "is_clinical": false,
+      "curation_note": "Gap does not mean impossible or unnecessary; it means no separate human Hendra clinical path was identified from public sources.",
+      "lineage_or_scope": "Humans occupationally exposed to horses/bats; human-label vaccine indication",
+      "sources": [
+        {
+          "title": "CSIRO Hendra vaccine history; CEPI HeV-sG-V cross-protective rationale; ICTV Henipavirus report",
+          "url": "https://www.csiro.au/en/research/animals/livestock/hendra"
+        },
+        {
+          "title": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial",
+          "url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial"
+        },
+        {
+          "title": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus",
+          "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "cedar-gap",
+      "candidate": "Cedar virus vaccine pathway",
+      "species": "Henipavirus cedarense",
+      "virus": "Cedar virus",
+      "stage": "No dedicated clinical pathway",
+      "stage_key": "gap",
+      "stage_order": 0,
+      "platform": "None publicly identified",
+      "sponsor_or_steward": "No target-specific vaccine programme identified",
+      "setting": "Surveillance and comparative virology",
+      "status_summary": "Current public sources identify Cedar virus as a henipavirus species, but no dedicated vaccine development pathway or clinical programme was found.",
+      "next_milestone_or_gap": "Risk characterization, receptor/tropism work, animal-pathogenicity assessment, and only then a target product profile if warranted.",
+      "evidence_class": "Gap lane / no public clinical pathway found",
+      "is_gap": true,
+      "is_clinical": false,
+      "curation_note": "No pathway found is a source-based curation result, not proof that no unpublished work exists.",
+      "lineage_or_scope": "Recognized henipavirus species; bat-associated",
+      "sources": [
+        {
+          "title": "ICTV Henipavirus report; species list search result",
+          "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "ghana-gap",
+      "candidate": "Ghanaian bat / Kumasi virus vaccine pathway",
+      "species": "Henipavirus ghanaense",
+      "virus": "Ghanaian bat henipavirus / Kumasi virus",
+      "stage": "No dedicated clinical pathway",
+      "stage_key": "gap",
+      "stage_order": 0,
+      "platform": "None publicly identified as target-specific clinical pathway",
+      "sponsor_or_steward": "No target-specific vaccine programme identified",
+      "setting": "Surveillance and comparative antigenicity",
+      "status_summary": "Ghanaian bat/Kumasi virus is in the current henipavirus species frame; public sources checked did not identify a target-specific clinical vaccine path.",
+      "next_milestone_or_gap": "Risk assessment, updated antigenic panel work, and decision on inclusion in broad/pan-henipavirus vaccine concepts.",
+      "evidence_class": "Gap lane / no public clinical pathway found",
+      "is_gap": true,
+      "is_clinical": false,
+      "curation_note": "Broad-platform data are captured separately; this row represents absence of a Ghanaian bat/Kumasi-specific clinical programme in public sources.",
+      "lineage_or_scope": "African bat-associated henipavirus species",
+      "sources": [
+        {
+          "title": "ICTV Henipavirus report; Fc-based broad vaccine concept",
+          "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus"
+        },
+        {
+          "title": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "angavokely-gap",
+      "candidate": "Angavokely virus vaccine pathway",
+      "species": "Henipavirus angavokelyense",
+      "virus": "Angavokely virus",
+      "stage": "No dedicated clinical pathway",
+      "stage_key": "gap",
+      "stage_order": 0,
+      "platform": "None publicly identified",
+      "sponsor_or_steward": "No target-specific vaccine programme identified",
+      "setting": "Virus discovery / comparative virology",
+      "status_summary": "Angavokely virus was added to the henipavirus species frame; no dedicated vaccine programme or clinical path was found in public sources.",
+      "next_milestone_or_gap": "Risk characterization, receptor usage/pathogenicity work, and update broad-vaccine antigen panels if warranted.",
+      "evidence_class": "Gap lane / no public clinical pathway found",
+      "is_gap": true,
+      "is_clinical": false,
+      "curation_note": "Mapped as a gap because discovery/characterization exists but no vaccine development pathway was identified.",
+      "lineage_or_scope": "Madagascar bat-associated henipavirus species",
+      "sources": [
+        {
+          "title": "ICTV current species-list result; JVI/PMC discovery paper",
+          "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus"
+        },
+        {
+          "title": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    },
+    {
+      "id": "salt-gully-surveillance",
+      "candidate": "Salt Gully virus risk characterization",
+      "species": "Novel/provisional henipavirus",
+      "virus": "Salt Gully virus",
+      "stage": "Discovery / surveillance",
+      "stage_key": "surveillance",
+      "stage_order": 1,
+      "platform": "No vaccine candidate; receptor/tropism/risk work only",
+      "sponsor_or_steward": "CSIRO and collaborators / Emerging Infectious Diseases report",
+      "setting": "Australian bat surveillance and in-vitro characterization",
+      "status_summary": "A 2025 Emerging Infectious Diseases report described Salt Gully virus as a novel henipavirus from Australian pteropid bats, most closely related to Angavokely virus, with unknown human-disease risk.",
+      "next_milestone_or_gap": "Establish taxonomy status, receptor usage, host range, animal pathogenicity, and whether countermeasure inclusion is warranted.",
+      "evidence_class": "Virus discovery / risk characterization",
+      "is_gap": true,
+      "is_clinical": false,
+      "curation_note": "Included as a surveillance/gap lane rather than a core recognized species pathway.",
+      "lineage_or_scope": "Pteropid bat isolate, Australia; closest to Angavokely in published analysis",
+      "sources": [
+        {
+          "title": "Emerging Infectious Diseases Salt Gully virus report",
+          "url": "https://wwwnc.cdc.gov/eid/article/31/9/25-0470_article"
+        }
+      ],
+      "registry_watch": [],
+      "curation_lock": true,
+      "registry_statuses": [],
+      "review_flags": []
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://cepi.net/university-oxford-launches-worlds-first-phase-ii-nipah-virus-vaccine-trial",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://cepi.net/university-oxford-launches-worlds-first-phase-ii-nipah-virus-vaccine-trial",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "cepi.net"
+    },
+    {
+      "url": "https://cepi.net/establishing-worlds-largest-nipah-virus-vaccine-reserve",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://cepi.net/establishing-worlds-largest-nipah-virus-vaccine-reserve",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "cepi.net"
+    },
+    {
+      "url": "https://www.isrctn.com/ISRCTN87634044",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.isrctn.com/ISRCTN87634044",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.isrctn.com"
+    },
+    {
+      "url": "https://cepi.net/new-vaccine-set-human-trials-nipah-outbreak-hotspot",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://cepi.net/new-vaccine-set-human-trials-nipah-outbreak-hotspot",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "cepi.net"
+    },
+    {
+      "url": "https://phvaccines.com/PHV02.html",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://phvaccines.com/PHV02.html",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "phvaccines.com"
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05178901",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://clinicaltrials.gov/study/NCT05178901",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "clinicaltrials.gov"
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT06221813",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://clinicaltrials.gov/study/NCT06221813",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "clinicaltrials.gov"
+    },
+    {
+      "url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "cepi.net"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41248666/",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/41248666/",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT04199169",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://clinicaltrials.gov/study/NCT04199169",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "clinicaltrials.gov"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41541-021-00284-w",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.nature.com/articles/s41541-021-00284-w",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.nature.com"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41591-026-04265-1",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.nature.com/articles/s41591-026-04265-1",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.nature.com"
+    },
+    {
+      "url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.nih.gov"
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05398796",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://clinicaltrials.gov/study/NCT05398796",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "clinicaltrials.gov"
+    },
+    {
+      "url": "https://www.euvaccine.eu/post/evi-supports-first-in-human-clinical-trial-of-novel-nipah-virus-vaccine",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.euvaccine.eu/post/evi-supports-first-in-human-clinical-trial-of-novel-nipah-virus-vaccine",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.euvaccine.eu"
+    },
+    {
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "euclinicaltrials.eu"
+    },
+    {
+      "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00113-7",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00113-7",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.cell.com"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38471503/",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/38471503/",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41541-024-00954-5",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.nature.com/articles/s41541-024-00954-5",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.nature.com"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "pmc.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "doaj.org"
+    },
+    {
+      "url": "https://www.csiro.au/en/research/animals/livestock/hendra",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://www.csiro.au/en/research/animals/livestock/hendra",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "www.csiro.au"
+    },
+    {
+      "url": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "news.zoetis.com"
+    },
+    {
+      "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "ictv.global"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "pmc.ncbi.nlm.nih.gov"
+    },
+    {
+      "url": "https://wwwnc.cdc.gov/eid/article/31/9/25-0470_article",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "status_code": null,
+      "final_url": "https://wwwnc.cdc.gov/eid/article/31/9/25-0470_article",
+      "content_type": null,
+      "title": null,
+      "elapsed_seconds": null,
+      "error": "network skipped",
+      "domain": "wwwnc.cdc.gov"
+    }
+  ],
+  "registry_statuses": [
+    {
+      "system": "ISRCTN",
+      "type": "isrctn",
+      "id": "ISRCTN87634044",
+      "url": "https://www.isrctn.com/ISRCTN87634044",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    },
+    {
+      "system": "ClinicalTrials.gov",
+      "type": "clinicaltrials_gov",
+      "id": "NCT05178901",
+      "url": "https://clinicaltrials.gov/study/NCT05178901",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    },
+    {
+      "system": "ClinicalTrials.gov",
+      "type": "clinicaltrials_gov",
+      "id": "NCT06221813",
+      "url": "https://clinicaltrials.gov/study/NCT06221813",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    },
+    {
+      "system": "ClinicalTrials.gov",
+      "type": "clinicaltrials_gov",
+      "id": "NCT04199169",
+      "url": "https://clinicaltrials.gov/study/NCT04199169",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    },
+    {
+      "system": "ClinicalTrials.gov",
+      "type": "clinicaltrials_gov",
+      "id": "NCT05398796",
+      "url": "https://clinicaltrials.gov/study/NCT05398796",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    },
+    {
+      "system": "EU CTIS",
+      "type": "eu_ctis",
+      "id": "2025-522293-37-00",
+      "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
+      "checked_at": "2026-06-10T18:15:44Z",
+      "ok": null,
+      "error": "network skipped"
+    }
+  ],
+  "review_flags": []
+}
