@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-22T17:29:35Z",
+  "generated_at": "2026-06-22T17:46:56Z",
   "registry_statuses": [
     {
       "system": "ISRCTN",
       "type": "isrctn",
       "id": "ISRCTN87634044",
       "url": "https://www.isrctn.com/ISRCTN87634044",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -15,7 +15,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05178901",
       "url": "https://clinicaltrials.gov/study/NCT05178901",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -24,7 +24,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT06221813",
       "url": "https://clinicaltrials.gov/study/NCT06221813",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -33,7 +33,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT04199169",
       "url": "https://clinicaltrials.gov/study/NCT04199169",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -42,7 +42,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05398796",
       "url": "https://clinicaltrials.gov/study/NCT05398796",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -51,7 +51,7 @@
       "type": "eu_ctis",
       "id": "2025-522293-37-00",
       "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     }

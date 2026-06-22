@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-22T17:29:35Z",
+  "generated_at": "2026-06-22T17:46:56Z",
   "generated_by": "scripts/update_dashboard_data.py",
   "update_mode": "offline_skip_network",
   "dashboard_title": "Henipavirus Vaccine Development Pathway Dashboard",
@@ -116,7 +116,7 @@
           "type": "isrctn",
           "id": "ISRCTN87634044",
           "url": "https://www.isrctn.com/ISRCTN87634044",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         }
@@ -180,7 +180,7 @@
           "type": "clinicaltrials_gov",
           "id": "NCT05178901",
           "url": "https://clinicaltrials.gov/study/NCT05178901",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         },
@@ -189,7 +189,7 @@
           "type": "clinicaltrials_gov",
           "id": "NCT06221813",
           "url": "https://clinicaltrials.gov/study/NCT06221813",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         }
@@ -247,7 +247,7 @@
           "type": "clinicaltrials_gov",
           "id": "NCT04199169",
           "url": "https://clinicaltrials.gov/study/NCT04199169",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         }
@@ -301,7 +301,7 @@
           "type": "clinicaltrials_gov",
           "id": "NCT05398796",
           "url": "https://clinicaltrials.gov/study/NCT05398796",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         }
@@ -351,7 +351,7 @@
           "type": "eu_ctis",
           "id": "2025-522293-37-00",
           "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
-          "checked_at": "2026-06-22T17:29:35Z",
+          "checked_at": "2026-06-22T17:46:56Z",
           "ok": null,
           "error": "network skipped"
         }
@@ -651,7 +651,7 @@
   "source_checks": [
     {
       "url": "https://cepi.net/university-oxford-launches-worlds-first-phase-ii-nipah-virus-vaccine-trial",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://cepi.net/university-oxford-launches-worlds-first-phase-ii-nipah-virus-vaccine-trial",
@@ -663,7 +663,7 @@
     },
     {
       "url": "https://cepi.net/establishing-worlds-largest-nipah-virus-vaccine-reserve",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://cepi.net/establishing-worlds-largest-nipah-virus-vaccine-reserve",
@@ -675,7 +675,7 @@
     },
     {
       "url": "https://www.isrctn.com/ISRCTN87634044",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.isrctn.com/ISRCTN87634044",
@@ -687,7 +687,7 @@
     },
     {
       "url": "https://cepi.net/new-vaccine-set-human-trials-nipah-outbreak-hotspot",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://cepi.net/new-vaccine-set-human-trials-nipah-outbreak-hotspot",
@@ -699,7 +699,7 @@
     },
     {
       "url": "https://phvaccines.com/PHV02.html",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://phvaccines.com/PHV02.html",
@@ -711,7 +711,7 @@
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT05178901",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://clinicaltrials.gov/study/NCT05178901",
@@ -723,7 +723,7 @@
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT06221813",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://clinicaltrials.gov/study/NCT06221813",
@@ -735,7 +735,7 @@
     },
     {
       "url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://cepi.net/cepi-funded-nipah-virus-vaccine-candidate-first-reach-phase-1-clinical-trial",
@@ -747,7 +747,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/41248666/",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/41248666/",
@@ -759,7 +759,7 @@
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT04199169",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://clinicaltrials.gov/study/NCT04199169",
@@ -771,7 +771,7 @@
     },
     {
       "url": "https://www.nature.com/articles/s41541-021-00284-w",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.nature.com/articles/s41541-021-00284-w",
@@ -783,7 +783,7 @@
     },
     {
       "url": "https://www.nature.com/articles/s41591-026-04265-1",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.nature.com/articles/s41591-026-04265-1",
@@ -795,7 +795,7 @@
     },
     {
       "url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine",
@@ -807,7 +807,7 @@
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT05398796",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://clinicaltrials.gov/study/NCT05398796",
@@ -819,7 +819,7 @@
     },
     {
       "url": "https://www.euvaccine.eu/post/evi-supports-first-in-human-clinical-trial-of-novel-nipah-virus-vaccine",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.euvaccine.eu/post/evi-supports-first-in-human-clinical-trial-of-novel-nipah-virus-vaccine",
@@ -831,7 +831,7 @@
     },
     {
       "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
@@ -843,7 +843,7 @@
     },
     {
       "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00113-7",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00113-7",
@@ -855,7 +855,7 @@
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38471503/",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/38471503/",
@@ -867,7 +867,7 @@
     },
     {
       "url": "https://www.nature.com/articles/s41541-024-00954-5",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.nature.com/articles/s41541-024-00954-5",
@@ -879,7 +879,7 @@
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232446/",
@@ -891,7 +891,7 @@
     },
     {
       "url": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://doaj.org/article/8f5a7962eacc47df8cadd98fee54ced4",
@@ -903,7 +903,7 @@
     },
     {
       "url": "https://www.csiro.au/en/research/animals/livestock/hendra",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://www.csiro.au/en/research/animals/livestock/hendra",
@@ -915,7 +915,7 @@
     },
     {
       "url": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://news.zoetis.com/press-releases/press-release-details/2015/Hendra-Virus-Vaccine-Now-Fully-Registered-in-Australia/default.aspx",
@@ -927,7 +927,7 @@
     },
     {
       "url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://ictv.global/report/chapter/paramyxoviridae/paramyxoviridae/henipavirus",
@@ -939,7 +939,7 @@
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9517717/",
@@ -951,7 +951,7 @@
     },
     {
       "url": "https://wwwnc.cdc.gov/eid/article/31/9/25-0470_article",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "status_code": null,
       "final_url": "https://wwwnc.cdc.gov/eid/article/31/9/25-0470_article",
@@ -968,7 +968,7 @@
       "type": "isrctn",
       "id": "ISRCTN87634044",
       "url": "https://www.isrctn.com/ISRCTN87634044",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -977,7 +977,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05178901",
       "url": "https://clinicaltrials.gov/study/NCT05178901",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -986,7 +986,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT06221813",
       "url": "https://clinicaltrials.gov/study/NCT06221813",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -995,7 +995,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT04199169",
       "url": "https://clinicaltrials.gov/study/NCT04199169",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -1004,7 +1004,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05398796",
       "url": "https://clinicaltrials.gov/study/NCT05398796",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     },
@@ -1013,7 +1013,7 @@
       "type": "eu_ctis",
       "id": "2025-522293-37-00",
       "url": "https://euclinicaltrials.eu/ctis-public/view/2025-522293-37-00?lang=en",
-      "checked_at": "2026-06-22T17:29:35Z",
+      "checked_at": "2026-06-22T17:46:56Z",
       "ok": null,
       "error": "network skipped"
     }
