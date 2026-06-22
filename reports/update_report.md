@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-06-10T18:15:44Z
+Generated: 2026-06-22T17:29:35Z
 Mode: offline_skip_network
 Records: 14
 Sources checked: 26
