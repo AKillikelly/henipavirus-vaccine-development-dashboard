@@ -11,9 +11,11 @@ on:
         options:
           - "false"
           - "true"
+
   schedule:
-    # Every Monday at 07:23 UTC
+    # Automatically update every Monday at 07:23 UTC
     - cron: "23 7 * * 1"
+
   push:
     paths:
       - "docs/**"
@@ -23,6 +25,7 @@ on:
       - ".github/workflows/update-and-publish.yml"
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -37,12 +40,12 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -54,35 +57,46 @@ jobs:
 
       - name: Refresh dashboard data
         shell: bash
+        env:
+          SKIP_NETWORK: ${{ github.event.inputs.skip_network || 'false' }}
         run: |
           set -euo pipefail
-          EXTRA=""
-          if [ "${{ inputs.skip_network || 'false' }}" = "true" ]; then
-            EXTRA="--skip-network"
+
+          EXTRA_ARGS=()
+
+          if [ "$SKIP_NETWORK" = "true" ]; then
+            EXTRA_ARGS+=(--skip-network)
           fi
+
           python scripts/update_dashboard_data.py \
             --config config/pipeline.yml \
             --rules config/watch_rules.yml \
             --out docs/data \
             --reports reports \
-            ${EXTRA}
+            "${EXTRA_ARGS[@]}"
 
-      - name: Validate and build
+      - name: Validate and build dashboard
         run: |
           python scripts/validate_dashboard_data.py \
             --data docs/data/henipavirus_development_pipeline_data.json
+
           python scripts/build_site.py --site docs
 
       - name: Commit refreshed data
         if: >-
-          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') &&
+          (github.event_name == 'schedule' ||
+          github.event_name == 'workflow_dispatch') &&
           github.ref_name == github.event.repository.default_branch
         shell: bash
         run: |
           set -euo pipefail
+
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add docs/data reports/update_report.md
+
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."
           else
@@ -92,11 +106,11 @@ jobs:
 
       - name: Configure GitHub Pages
         if: github.ref_name == github.event.repository.default_branch
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload Pages artifact
         if: github.ref_name == github.event.repository.default_branch
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: docs
 
@@ -104,6 +118,7 @@ jobs:
     if: github.ref_name == github.event.repository.default_branch
     needs: update-build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -111,4 +126,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
