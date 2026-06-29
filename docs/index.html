@@ -3,26 +3,29 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Henipavirus vaccine development pathway dashboard</title>
-  <meta name="description" content="Self-updating static dashboard mapping Henipavirus vaccine development maturity by species, pathway, and candidate." />
+  <title>Henipavirus vaccine and therapeutics development dashboard</title>
+  <meta name="description" content="Self-updating dashboard mapping Henipavirus vaccine and therapeutic development maturity, trial status, platforms, geographies, funding, and data sources." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
       <div class="hero-card">
-        <div class="eyebrow">Self-updating pathway dashboard</div>
-        <h1>Henipavirus vaccine development pathway dashboard</h1>
+        <div class="eyebrow">Self-updating countermeasure dashboard</div>
+        <h1>Henipavirus vaccine and therapeutics development dashboard</h1>
         <p>
-          A GitHub Pages-ready dashboard tracking public vaccine-development maturity for Nipah, Hendra, Cedar,
-          Ghanaian bat/Kumasi, Angavokely, and selected provisional or surveillance rows. The data layer is refreshed
-          by GitHub Actions from curated records, public source checks, and clinical-registry metadata.
+          A GitHub Pages-ready dashboard tracking public vaccine, therapeutic, veterinary, and surveillance evidence for
+          Henipaviruses. The active public-health development focus is Nipah and Hendra. Cedar is labelled as a research
+          surrogate/tool, while Ghanaian bat/Kumasi, Mojiang, Angavokely, and Salt Gully rows are surveillance-only unless
+          a source-backed product program appears.
         </p>
         <div class="actions">
           <a id="csv-link" class="button primary" href="data/henipavirus_development_pipeline_data.csv">Download CSV</a>
           <a id="json-link" class="button" href="data/henipavirus_development_pipeline_data.json">Download JSON</a>
-          <a class="button" href="#source-audit">Source audit</a>
-          <a class="button" href="#methods">Methods</a>
+          <a class="button" href="#platform-tracker-section">Platform tracker</a>
+          <a class="button" href="#clinical-status-section">Clinical status</a>
+          <a class="button" href="#therapeutics-section">Therapeutics</a>
+          <a class="button" href="#data-sources-section">Data sources</a>
         </div>
       </div>
       <aside class="hero-card side-note">
@@ -39,14 +42,14 @@
           <div class="fine">Review flags</div>
           <strong id="flag-count">—</strong>
         </div>
-        <p class="fine">Curated stage placement is not silently promoted by the bot; registry/source changes generate visible review flags.</p>
+        <p class="fine">Curated stage placement is not silently promoted by the bot; registry, source, and publication changes generate visible review flags.</p>
       </aside>
     </section>
 
     <section id="stats" class="grid-stats" aria-label="Dashboard metrics"></section>
 
     <section class="controls" aria-label="Dashboard filters">
-      <input id="search" type="search" placeholder="Search candidate, platform, species, sponsor, evidence…" />
+      <input id="search" type="search" placeholder="Search candidate, platform, species, sponsor, evidence, country, funding…" />
       <select id="species-filter" aria-label="Species filter"><option>Loading…</option></select>
       <select id="stage-filter" aria-label="Stage filter"><option>Loading…</option></select>
       <select id="evidence-filter" aria-label="Evidence class filter"><option>Loading…</option></select>
@@ -57,13 +60,31 @@
 
     <section class="panel">
       <h2>Species snapshots</h2>
-      <p>Highest visible maturity stage by species under the active filters.</p>
+      <p>Highest visible maturity stage by species or scope under the active filters. Surveillance-only rows are retained for traceability but are not shown as active vaccine programs.</p>
       <div id="species-grid" class="species-grid"></div>
+    </section>
+
+    <section id="platform-tracker-section" class="panel">
+      <h2>Platform tracker</h2>
+      <p>Technology coverage now includes mRNA, self-amplifying mRNA, ChAdOx1 adenovirus, recombinant VSV, recombinant measles vector, subunit protein, VLP, DNA, live-attenuated/replicating-vector, monoclonal antibody, and small-molecule therapeutic approaches.</p>
+      <div id="platform-tracker"></div>
+    </section>
+
+    <section id="clinical-status-section" class="panel">
+      <h2>Clinical trial status and publication endpoints</h2>
+      <p>Trial phase, trial status, completion dates, and publication status are tracked separately. This avoids lumping ongoing trials, completed trials, and published-result trials into the same visual status.</p>
+      <div id="clinical-tracker"></div>
+    </section>
+
+    <section id="geography-section" class="panel">
+      <h2>Geographic/site map</h2>
+      <p>Curated trial, manufacturing, preclinical, veterinary, and surveillance locations by country and role. This is a text-based site map suitable for static GitHub Pages deployment.</p>
+      <div id="geography-grid"></div>
     </section>
 
     <section class="panel">
       <h2>Maturity board</h2>
-      <p>Cards are placed in the highest public stage supported by the curated evidence. Automated registry/status changes are displayed on the card and in the detail pane.</p>
+      <p>Cards are placed in the highest public stage supported by curated evidence. Reserve/stockpile readiness, veterinary licensure, trial completion, and publication status are tracked as separate attributes.</p>
       <div class="board-wrap">
         <div id="board" class="board"></div>
       </div>
@@ -82,10 +103,10 @@
             <tr>
               <th>Candidate / row</th>
               <th>Species / virus</th>
-              <th>Stage</th>
+              <th>Stage / trial status</th>
               <th>Platform</th>
               <th>Sponsor / steward</th>
-              <th>Evidence class</th>
+              <th>Publication / evidence</th>
               <th>Flags</th>
             </tr>
           </thead>
@@ -94,13 +115,37 @@
       </div>
     </section>
 
+    <section id="veterinary-section" class="panel">
+      <h2>Approved veterinary countermeasures</h2>
+      <p>Veterinary products are separated from human products. Equivac® HeV is shown as a licensed horse vaccine in Australia, not a licensed human henipavirus vaccine.</p>
+      <div id="veterinary-grid"></div>
+    </section>
+
+    <section id="therapeutics-section" class="panel">
+      <h2>Therapeutics pipeline</h2>
+      <p>Parallel therapeutic development includes monoclonal antibodies and repurposed antivirals. These rows are intentionally separated from vaccine candidates while sharing the same maturity definitions.</p>
+      <div id="therapeutics-grid"></div>
+    </section>
+
+    <section id="data-sources-section" class="panel">
+      <h2>Data sources directory</h2>
+      <p>Direct links to registries, CEPI announcements, WHO/R&D Blueprint context, publications, and company/institution pages used by the dashboard.</p>
+      <div id="sources-directory"></div>
+    </section>
+
+    <section id="stage-definitions-section" class="panel">
+      <h2>Stage definitions and visual indicators</h2>
+      <p>Granular stages distinguish preclinical, IND-enabling, Phase I planned, Phase I ongoing, Phase I complete/results pending, Phase I results published, Phase II planned, Phase II ongoing, Phase III, human licensure, and veterinary licensure.</p>
+      <div id="stage-definitions"></div>
+    </section>
+
     <section id="source-audit" class="panel">
       <h2>Source audit</h2>
-      <p>The scheduled updater checks configured source pages and structured registries. Broken links and registry status changes become review flags rather than silent curation changes.</p>
+      <p>The scheduled updater checks configured source pages, structured registries, and publication searches. Broken links, registry status changes, or publication-watch errors become review flags rather than silent curation changes.</p>
       <div id="audit"></div>
     </section>
 
-    <section id="methods" class="panel">
+    <section id="methods-section" class="panel">
       <h2>Methods and curation policy</h2>
       <div id="methods"></div>
     </section>
