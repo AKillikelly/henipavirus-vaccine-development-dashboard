@@ -225,3 +225,70 @@ td { color: #cfdbeb; }
   .grid-stats, .species-grid { grid-template-columns: 1fr; }
   .kv { grid-template-columns: 1fr; }
 }
+
+/* Updated granular stages and dashboard modules */
+.controls { grid-template-columns: minmax(260px, 1fr) repeat(3, minmax(150px, 190px)) auto auto auto; }
+.board { grid-template-columns: repeat(13, minmax(255px, 1fr)); }
+.stage-ind_enabling { color: #fef3c7; background: rgba(217,119,6,.14); }
+.stage-phase1_planned { color: #dbeafe; background: rgba(59,130,246,.10); }
+.stage-phase1_started { color: #bfdbfe; background: rgba(59,130,246,.16); }
+.stage-phase1_completed { color: #bae6fd; background: rgba(14,165,233,.13); }
+.stage-phase1_results_published { color: #a7f3d0; background: rgba(16,185,129,.14); }
+.stage-phase2_planned { color: #bbf7d0; background: rgba(34,197,94,.10); }
+.stage-phase2_ongoing { color: #bbf7d0; background: rgba(34,197,94,.18); }
+.stage-phase3 { color: #f0fdf4; background: rgba(22,163,74,.22); }
+.stage-licensed_human { color: #dcfce7; background: rgba(22,163,74,.24); }
+.stage-licensed_veterinary { color: #ccfbf1; background: rgba(20,184,166,.18); }
+
+.chip.program-vaccine { color: #bfdbfe; border-color: rgba(96,165,250,.35); background: rgba(96,165,250,.08); }
+.chip.program-therapeutic { color: #fbcfe8; border-color: rgba(244,114,182,.35); background: rgba(244,114,182,.09); }
+.chip.program-veterinary { color: #ccfbf1; border-color: rgba(45,212,191,.35); background: rgba(45,212,191,.09); }
+.chip.program-surveillance { color: #ddd6fe; border-color: rgba(167,139,250,.35); background: rgba(167,139,250,.10); }
+.chip.program-gap { color: #fecaca; border-color: rgba(251,113,133,.35); background: rgba(251,113,133,.08); }
+.chip.status-live { color: #bbf7d0; border-color: rgba(34,197,94,.35); background: rgba(34,197,94,.10); }
+.chip.status-complete { color: #fde68a; border-color: rgba(245,158,11,.35); background: rgba(245,158,11,.08); }
+.chip.status-published { color: #a7f3d0; border-color: rgba(16,185,129,.35); background: rgba(16,185,129,.10); }
+.chip.status-planned { color: #dbeafe; border-color: rgba(96,165,250,.35); background: rgba(96,165,250,.08); }
+.chip.status-surveillance { color: #ddd6fe; border-color: rgba(167,139,250,.35); background: rgba(167,139,250,.10); }
+
+.tracker-grid { display: grid; grid-template-columns: repeat(3, minmax(240px, 1fr)); gap: 14px; }
+.tracker-grid.small-grid { grid-template-columns: repeat(4, minmax(190px, 1fr)); }
+.tracker-card {
+  background: rgba(255,255,255,.045);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+  min-height: 135px;
+}
+.tracker-card h3 { margin-bottom: 10px; }
+.tracker-card[data-id], .therapeutic-card[data-id], .veterinary-card[data-id] { cursor: pointer; }
+.tracker-card[data-id]:hover { border-color: rgba(125,211,252,.45); background: rgba(12,32,52,.9); }
+.geo-grid { grid-template-columns: repeat(2, minmax(260px, 1fr)); }
+.geo-card .compact-list li { margin-bottom: 10px; }
+.source-groups { display: grid; grid-template-columns: repeat(2, minmax(260px, 1fr)); gap: 14px; }
+.source-group { background: rgba(255,255,255,.04); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+.compact-list { margin: 10px 0 0; padding-left: 18px; color: #cfdbeb; line-height: 1.5; font-size: 13px; }
+.compact-list li { margin-bottom: 6px; }
+.section-subhead { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
+.location-list, .funding-list { display: grid; gap: 10px; margin-top: 10px; }
+.location-item, .funding-item {
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.045);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.source-row .compact-list { margin-top: 8px; }
+.compact-table { max-height: 520px; }
+.detail .detail-box h3:not(:first-child) { margin-top: 18px; }
+.kv { grid-template-columns: 175px minmax(0, 1fr); }
+.stat .fine { margin-top: 8px; }
+
+@media (max-width: 1100px) {
+  .controls { grid-template-columns: 1fr 1fr; }
+  .tracker-grid, .tracker-grid.small-grid, .source-groups, .geo-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 680px) {
+  .controls { grid-template-columns: 1fr; }
+}
