@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-06-29T17:20:58Z",
-  "update_mode": "network_refresh",
-  "record_count": 14,
-  "source_count": 26,
-  "registry_watch_count": 6,
-  "review_flag_count": 4
+  "generated_at": "2026-06-29T18:47:47Z",
+  "update_mode": "offline_skip_network",
+  "record_count": 21,
+  "source_count": 80,
+  "registry_watch_count": 7,
+  "publication_watch_count": 20,
+  "review_flag_count": 0,
+  "program_type_counts": {
+    "Human vaccine": 6,
+    "Human vaccine - preclinical platform": 6,
+    "Veterinary vaccine": 1,
+    "Human vaccine gap": 1,
+    "Research tool / surveillance": 1,
+    "Surveillance only / no active development": 2,
+    "Therapeutic": 4
+  },
+  "platform_family_counts": {
+    "Viral vector - chimpanzee adenovirus": 1,
+    "Viral vector - recombinant VSV": 1,
+    "Subunit protein": 2,
+    "mRNA": 1,
+    "mRNA - self-amplifying RNA": 1,
+    "Viral vector - recombinant measles": 1,
+    "Subunit protein / immune-targeted biologic": 1,
+    "Subunit protein / nanoparticle": 1,
+    "Subunit protein / broad henipavirus": 1,
+    "Virus-like particle (VLP)": 1,
+    "DNA vaccine / DNA-encoded biologics": 1,
+    "Live attenuated / replicating vector": 1,
+    "Gap / indication need": 1,
+    "Research tool / surrogate model": 1,
+    "Surveillance / sequence discovery": 1,
+    "Surveillance / virus discovery": 1,
+    "Therapeutic monoclonal antibody": 2,
+    "Therapeutic small molecule / antiviral": 2
+  }
 }
