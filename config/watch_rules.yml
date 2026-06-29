@@ -1,4 +1,4 @@
-schema_version: 1.0.0
+schema_version: 1.1.0
 http:
   timeout_seconds: 25
   max_bytes_per_page: 500000
@@ -34,3 +34,4 @@ output:
   commit_generated_reports: true
   write_source_checks_csv: true
   write_registry_status_json: true
+  write_publication_status_json: true
