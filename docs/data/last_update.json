@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-29T19:36:34Z",
-  "update_mode": "offline_skip_network",
+  "generated_at": "2026-06-29T19:38:34Z",
+  "update_mode": "network_refresh",
   "record_count": 21,
   "source_count": 80,
   "registry_watch_count": 7,
   "publication_watch_count": 20,
-  "review_flag_count": 0,
+  "review_flag_count": 35,
   "program_type_counts": {
     "Human vaccine": 6,
     "Human vaccine - preclinical platform": 6,

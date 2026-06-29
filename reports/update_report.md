@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-06-29T19:36:34Z
-Mode: offline_skip_network
+Generated: 2026-06-29T19:38:34Z
+Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 0
+Review flags: 35
 
 ## Stage counts
 
@@ -54,40 +54,74 @@ Review flags: 0
 
 ## Review flags
 
-No review flags generated in this run.
+- **warning** `niv-chadox1-phase2-ongoing` — Source returned HTTP 403: https://europepmc.org/search?query=%22ChAdOx1%20NipahB%22%20OR%20%22ChAdOx1%20NiV%22
+- **warning** `niv-phv02-phase2-planned` — Source returned HTTP 403: https://europepmc.org/search?query=PHV02%20Nipah%20vaccine
+- **review** `niv-phv02-phase2-planned` — NCT05178901 reports COMPLETED; review whether the curated stage still describes the public pathway.
+- **review** `niv-phv02-phase2-planned` — NCT06221813 reports COMPLETED; review whether the curated stage still describes the public pathway.
+- **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://doi.org/10.1016/S0140-6736(25)01390-X
+- **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
+- **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
+- **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
+- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
+- **review** `niv-mvniv-phase1-started` — Source title may indicate a stale/broken page: Page not found | Belgian Biosafety Server
+- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine
+- **warning** `niv-cd40-targeted-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=CD40%20Nipah%20vaccine
+- **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 404: https://www.nature.com/articles/s41541-024-00943-y
+- **review** `niv-g-nanoparticle-preclinical` — Source title may indicate a stale/broken page: Page not found | Nature
+- **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 403: https://www.sciencedirect.com/science/article/pii/S1995820X2400144X
+- **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20nanoparticle%20vaccine
+- **warning** `hnv-fc-broad-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine
+- **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://www.researchgate.net/publication/318988373_A_VLP-based_vaccine_provides_complete_protection_against_Nipah_virus_challenge_following_multiple-dose_or_single-dose_vaccination_schedules_in_a_hamster_model
+- **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine
+- **warning** `niv-dna-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics
+- **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://www.niaid.nih.gov/research/vsv-based-nipah-virus-vaccine
+- **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine
+- **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
+- **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
+- **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
+- **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
+- **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
+- **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
+- **warning** `salt-gully-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=%22Salt%20Gully%20virus%22%20henipavirus
+- **warning** `tx-m1024-phase1-results-published` — Source returned HTTP 403: https://doi.org/10.1016/S1473-3099(19)30634-6
+- **warning** `tx-m1024-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=m102.4%20henipavirus%20phase%201
+- **warning** `tx-mbp1f5-phase1-planned` — Source returned HTTP 403: https://www.science.org/doi/10.1126/scitranslmed.adl2055
+- **warning** `tx-mbp1f5-phase1-planned` — Source returned HTTP 403: https://europepmc.org/search?query=MBP1F5%20Nipah
+- **warning** `tx-remdesivir-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=remdesivir%20Nipah%20virus%20African%20green%20monkeys
+- **warning** `tx-favipiravir-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=favipiravir%20Nipah%20hamster
 
 ## Clinical registry statuses
 
-- `ISRCTN87634044`: network skipped
-- `ISRCTN62461807`: network skipped
-- `NCT05178901`: network skipped
-- `NCT06221813`: network skipped
-- `NCT04199169`: network skipped
-- `NCT05398796`: network skipped
-- `2025-522293-37-00`: network skipped
+- `ISRCTN87634044`: No structured API adapter configured; source page is monitored through source_checks.
+- `ISRCTN62461807`: No structured API adapter configured; source page is monitored through source_checks.
+- `NCT05178901`: COMPLETED — PHASE1
+- `NCT06221813`: COMPLETED — PHASE1
+- `NCT04199169`: COMPLETED — PHASE1
+- `NCT05398796`: COMPLETED — PHASE1
+- `2025-522293-37-00`: No structured API adapter configured; source page is monitored through source_checks.
 
 ## Publication watches
 
-- `ChAdOx1-NipahB`: network skipped
-- `PHV02`: network skipped
-- `HeV-sG-V`: network skipped
-- `mRNA-1215`: network skipped
-- `Gennova-saRNA-Nipah`: network skipped
-- `MV-NiV`: network skipped
-- `CD40-NiV`: network skipped
-- `Nipah-nanoparticle`: network skipped
-- `broad-henipavirus-Fc`: network skipped
-- `Nipah-VLP`: network skipped
-- `DNA-launched-Nipah`: network skipped
-- `live-attenuated-Nipah`: network skipped
-- `Equivac-HeV`: network skipped
-- `Cedar-surrogate`: network skipped
-- `non-NiV-HeV-surveillance`: network skipped
-- `Salt-Gully-virus`: network skipped
-- `m102.4`: network skipped
-- `MBP1F5`: network skipped
-- `remdesivir-Nipah`: network skipped
-- `favipiravir-Nipah`: network skipped
+- `ChAdOx1-NipahB`: 26 hits
+- `PHV02`: 24 hits
+- `HeV-sG-V`: 21 hits
+- `mRNA-1215`: 60 hits
+- `Gennova-saRNA-Nipah`: 2 hits
+- `MV-NiV`: 4 hits
+- `CD40-NiV`: 78 hits
+- `Nipah-nanoparticle`: 379 hits
+- `broad-henipavirus-Fc`: 183 hits
+- `Nipah-VLP`: 1125 hits
+- `DNA-launched-Nipah`: 99 hits
+- `live-attenuated-Nipah`: 1061 hits
+- `Equivac-HeV`: 90 hits
+- `Cedar-surrogate`: 44 hits
+- `non-NiV-HeV-surveillance`: 4 hits
+- `Salt-Gully-virus`: 5 hits
+- `m102.4`: 116 hits
+- `MBP1F5`: 3 hits
+- `remdesivir-Nipah`: 76 hits
+- `favipiravir-Nipah`: 102 hits
 
 ## Source domains
 

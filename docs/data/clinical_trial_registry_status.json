@@ -1,68 +1,221 @@
 {
-  "generated_at": "2026-06-29T19:36:34Z",
+  "generated_at": "2026-06-29T19:38:34Z",
   "registry_statuses": [
     {
       "system": "ISRCTN",
       "type": "isrctn",
       "id": "ISRCTN87634044",
       "url": "https://www.isrctn.com/ISRCTN87634044",
-      "checked_at": "2026-06-29T19:36:34Z",
+      "checked_at": "2026-06-29T19:38:22Z",
       "ok": null,
-      "error": "network skipped"
+      "note": "No structured API adapter configured; source page is monitored through source_checks."
     },
     {
       "system": "ISRCTN",
       "type": "isrctn",
       "id": "ISRCTN62461807",
       "url": "https://www.isrctn.com/ISRCTN62461807",
-      "checked_at": "2026-06-29T19:36:34Z",
+      "checked_at": "2026-06-29T19:38:22Z",
       "ok": null,
-      "error": "network skipped"
+      "note": "No structured API adapter configured; source page is monitored through source_checks."
     },
     {
       "system": "ClinicalTrials.gov",
       "type": "clinicaltrials_gov",
       "id": "NCT05178901",
-      "url": "https://clinicaltrials.gov/study/NCT05178901",
-      "checked_at": "2026-06-29T19:36:34Z",
-      "ok": null,
-      "error": "network skipped"
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05178901",
+      "checked_at": "2026-06-29T19:38:22Z",
+      "ok": true,
+      "error": null,
+      "status_code": 200,
+      "nct_id": "NCT05178901",
+      "brief_title": "A Phase 1 Study to Evaluate Safety & Immunogenicity of RVSV-Nipah Virus Vaccine Candidate PHV02 in Healthy Adult Subjects",
+      "official_title": "A Phase 1 Randomized, Single Center, Double-Blind, Placebo-Controlled, Dose-Response and Open-Label or Single Blind Booster Study to Evaluate the Safety and Immunogenicity of RVSV-Nipah Virus Vaccine Candidate PHV02 in Healthy Adult Subjects",
+      "overall_status": "COMPLETED",
+      "last_update_submit_date": "2024-10-22",
+      "start_date": "2022-01-10",
+      "primary_completion_date": "2023-05-30",
+      "completion_date": "2023-05-30",
+      "study_first_submit_date": "2021-12-06",
+      "results_first_submit_date": null,
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "enrollment_count": 60,
+      "enrollment_type": "ACTUAL",
+      "brief_summary": "A Phase 1 Study to Evaluate the Safety and Immunogenicity of rVSV-Nipah Virus Vaccine Candidate PHV02 in Healthy Adult Subjects",
+      "lead_sponsor": "Public Health Vaccines LLC",
+      "collaborators": [
+        "Coalition for Epidemic Preparedness Innovations"
+      ],
+      "locations": [
+        {
+          "facility": "Johnson County Clin-Trials(JCCT)",
+          "city": "Lenexa",
+          "state": "Kansas",
+          "country": "United States"
+        }
+      ],
+      "interventions": [
+        "PHV02",
+        "Placebo"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05178901"
     },
     {
       "system": "ClinicalTrials.gov",
       "type": "clinicaltrials_gov",
       "id": "NCT06221813",
-      "url": "https://clinicaltrials.gov/study/NCT06221813",
-      "checked_at": "2026-06-29T19:36:34Z",
-      "ok": null,
-      "error": "network skipped"
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06221813",
+      "checked_at": "2026-06-29T19:38:22Z",
+      "ok": true,
+      "error": null,
+      "status_code": 200,
+      "nct_id": "NCT06221813",
+      "brief_title": "Study to Evaluate Safety and Immunogenicity of a Prime-Boost Regimen of rVSV-Nipah Virus Vaccine Candidate PHV02 in Healthy Adult Subjects",
+      "official_title": "A Phase 1b Randomized, Observer-Blind, Placebo-Controlled Study to Evaluate the Safety and Immunogenicity of a Prime-Boost Regimen of Three Dose Levels of PHV02, a Nipah Virus Vaccine Candidate (rVSV-ΔG-EBOV GP-NiVG) in Healthy Adults",
+      "overall_status": "COMPLETED",
+      "last_update_submit_date": "2025-06-04",
+      "start_date": "2024-01-26",
+      "primary_completion_date": "2024-09-30",
+      "completion_date": "2024-10-02",
+      "study_first_submit_date": "2024-01-15",
+      "results_first_submit_date": null,
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "enrollment_count": 120,
+      "enrollment_type": "ACTUAL",
+      "brief_summary": "The goal of this clinical trial is to test the safety and immunogenicity of PHV02 live, attenuated recombinant vesicular stomatitis virus vaccine expressing the Nipah Virus glycoprotein in healthy adult subjects. The main questions it aims to answer are:\n\n* which doses of PHV02 are safe to administer to and well-tolerated by healthy adult subjects as a 2 dose regimen given 1 month apart?\n* what is the immunologic response (Nipah-specific IgG ELISA antibody and neutralizing antibodies) to each dose level after a 2-dose regimen given 1 month apart? Participants will receive 2 intramuscular injections of PHV02 (2x105, 2x106, and 2x107 plaque-forming units \\[pfu\\]) or placebo on Day 1 and Day 29 and will be followed for 197 days.",
+      "lead_sponsor": "Public Health Vaccines LLC",
+      "collaborators": [
+        "Coalition for Epidemic Preparedness Innovations"
+      ],
+      "locations": [
+        {
+          "facility": "Cenexel ACT (Anaheim Clinical Trials)",
+          "city": "Anaheim",
+          "state": "California",
+          "country": "United States"
+        },
+        {
+          "facility": "Cenexel RCA (Research Centers of America)",
+          "city": "Hollywood",
+          "state": "Florida",
+          "country": "United States"
+        },
+        {
+          "facility": "Cenexel JBR (JBR Clinical Research)",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "country": "United States"
+        }
+      ],
+      "interventions": [
+        "PHV02",
+        "Lactated Ringer's"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06221813"
     },
     {
       "system": "ClinicalTrials.gov",
       "type": "clinicaltrials_gov",
       "id": "NCT04199169",
-      "url": "https://clinicaltrials.gov/study/NCT04199169",
-      "checked_at": "2026-06-29T19:36:34Z",
-      "ok": null,
-      "error": "network skipped"
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04199169",
+      "checked_at": "2026-06-29T19:38:22Z",
+      "ok": true,
+      "error": null,
+      "status_code": 200,
+      "nct_id": "NCT04199169",
+      "brief_title": "Safety and Immunogenicity of a Nipah Virus Vaccine",
+      "official_title": "A Phase 1 Randomized, Placebo-controlled, Observer-blind Trial to Assess the Safety and Immunogenicity of a Nipah Vaccine, HeV-sG-V (Hendra Virus Soluble Glycoprotein Vaccine), in Healthy Adults",
+      "overall_status": "COMPLETED",
+      "last_update_submit_date": "2022-11-16",
+      "start_date": "2020-02-18",
+      "primary_completion_date": "2022-05-06",
+      "completion_date": "2022-05-06",
+      "study_first_submit_date": "2019-12-11",
+      "results_first_submit_date": null,
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "enrollment_count": 192,
+      "enrollment_type": "ACTUAL",
+      "brief_summary": "A first-in-human, phase 1 trial is to be conducted in a healthy adult population in the US to assess the safety and immunogenicity of three ascending Nipah vaccine (HeV-sG-V; Hendra virus soluble glycoprotein vaccine) dosages. Different dosing regimens and number of doses will also be explored.",
+      "lead_sponsor": "Auro Vaccines LLC",
+      "collaborators": [
+        "PATH",
+        "Coalition for Epidemic Preparedness Innovations",
+        "Children's Hospital Medical Center, Cincinnati"
+      ],
+      "locations": [
+        {
+          "facility": "Cincinnati Children's Hospital Medical Center (CCHMC)",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "country": "United States"
+        }
+      ],
+      "interventions": [
+        "HeV-sG-V",
+        "Normal Saline Placebo"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04199169"
     },
     {
       "system": "ClinicalTrials.gov",
       "type": "clinicaltrials_gov",
       "id": "NCT05398796",
-      "url": "https://clinicaltrials.gov/study/NCT05398796",
-      "checked_at": "2026-06-29T19:36:34Z",
-      "ok": null,
-      "error": "network skipped"
+      "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05398796",
+      "checked_at": "2026-06-29T19:38:22Z",
+      "ok": true,
+      "error": null,
+      "status_code": 200,
+      "nct_id": "NCT05398796",
+      "brief_title": "Dose Escalation, Open-Label Clinical Trial to Evaluate Safety, Tolerability and Immunogenicity of a Nipah Virus (NiV) mRNA Vaccine, mRNA-1215, in Healthy Adults",
+      "official_title": "VRC 322/DMID 21-0016: A Phase I, Dose Escalation, Open-Label Clinical Trial to Evaluate Safety, Tolerability and Immunogenicity of a Nipah Virus (NiV) mRNA Vaccine, mRNA-1215, in Healthy Adults",
+      "overall_status": "COMPLETED",
+      "last_update_submit_date": "2025-10-08",
+      "start_date": "2022-07-11",
+      "primary_completion_date": "2024-09-17",
+      "completion_date": "2024-09-17",
+      "study_first_submit_date": "2022-05-27",
+      "results_first_submit_date": "2025-09-16",
+      "phases": [
+        "PHASE1"
+      ],
+      "study_type": "INTERVENTIONAL",
+      "enrollment_count": 40,
+      "enrollment_type": "ACTUAL",
+      "brief_summary": "Background:\n\nNipah virus (NiV) is transmitted from animals to humans, from humans to humans, and through contaminated food. Infected people may have a cough and trouble breathing. Some people may develop serious symptoms, such as brain infection and inflammation, that can lead to death. There are no drugs or vaccines to treat or prevent NiV infection.\n\nObjective:\n\nTo test the safety of an experimental vaccine (mRNA-1215) for NiV. Researchers will also evaluate how participants bodies respond to the vaccine.\n\nEligibility:\n\nHealthy, nonpregnant adults aged 18 to 60 years.\n\nDesign:\n\nParticipants visited the NIH clinic 13 to 15 times over 14 to 16 months.\n\nParticipants received 2 doses of the experimental vaccine at 1 month apart. The vaccine was given as a shot into the muscle of the upper arm. Participants stayed in the clinic at least 30 minutes after each vaccination.\n\nParticipants were given a diary card and a thermometer. They recorded their temperature and any other reactogenicity symptoms for 7 days after each vaccination.\n\nDuring each follow-up visit, 3 to 14 tubes of blood were drawn for research.\n\nSome participants underwent an optional procedure called apheresis. A needle is placed into a vein in each arm. Blood is removed through one needle. The blood passed through a machine that separates some of the blood cells. The rest of the blood is returned to the body through another needle.\n\nThe mRNA-1215 vaccine cannot cause NiV infection.",
+      "lead_sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+      "collaborators": [
+        "ModernaTX, Inc."
+      ],
+      "locations": [
+        {
+          "facility": "National Institutes of Health Clinical Center",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "country": "United States"
+        }
+      ],
+      "interventions": [
+        "mRNA -1215"
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05398796"
     },
     {
       "system": "EU CTIS",
       "type": "eu_ctis",
       "id": "2025-522293-37-00",
       "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en",
-      "checked_at": "2026-06-29T19:36:34Z",
+      "checked_at": "2026-06-29T19:38:22Z",
       "ok": null,
-      "error": "network skipped"
+      "note": "No structured API adapter configured; source page is monitored through source_checks."
     }
   ]
 }
