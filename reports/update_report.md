@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-07-06T11:46:25Z
+Generated: 2026-07-13T10:37:56Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 35
+Review flags: 36
 
 ## Stage counts
 
@@ -74,6 +74,7 @@ Review flags: 35
 - **warning** `hnv-fc-broad-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://www.researchgate.net/publication/318988373_A_VLP-based_vaccine_provides_complete_protection_against_Nipah_virus_challenge_following_multiple-dose_or_single-dose_vaccination_schedules_in_a_hamster_model
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine
+- **warning** `niv-dna-preclinical` — Source returned HTTP 502: https://gtr.ukri.org/projects?ref=UKRI999
 - **warning** `niv-dna-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics
 - **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
@@ -118,7 +119,7 @@ Review flags: 35
 - `Cedar-surrogate`: 44 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 5 hits
-- `m102.4`: 116 hits
+- `m102.4`: 117 hits
 - `MBP1F5`: 3 hits
 - `remdesivir-Nipah`: 76 hits
 - `favipiravir-Nipah`: 102 hits
