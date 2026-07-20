@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-07-13T10:37:56Z
+Generated: 2026-07-20T10:22:34Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -74,8 +74,8 @@ Review flags: 36
 - **warning** `hnv-fc-broad-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://www.researchgate.net/publication/318988373_A_VLP-based_vaccine_provides_complete_protection_against_Nipah_virus_challenge_following_multiple-dose_or_single-dose_vaccination_schedules_in_a_hamster_model
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine
-- **warning** `niv-dna-preclinical` — Source returned HTTP 502: https://gtr.ukri.org/projects?ref=UKRI999
 - **warning** `niv-dna-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics
+- **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://www.niaid.nih.gov/research/vsv-based-nipah-virus-vaccine
 - **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
@@ -114,7 +114,7 @@ Review flags: 36
 - `broad-henipavirus-Fc`: 183 hits
 - `Nipah-VLP`: 1125 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1061 hits
+- `live-attenuated-Nipah`: 1064 hits
 - `Equivac-HeV`: 90 hits
 - `Cedar-surrogate`: 44 hits
 - `non-NiV-HeV-surveillance`: 4 hits
