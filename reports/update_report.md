@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-07-20T10:22:34Z
+Generated: 2026-07-27T10:52:59Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -114,8 +114,8 @@ Review flags: 36
 - `broad-henipavirus-Fc`: 183 hits
 - `Nipah-VLP`: 1125 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1064 hits
-- `Equivac-HeV`: 90 hits
+- `live-attenuated-Nipah`: 1094 hits
+- `Equivac-HeV`: 91 hits
 - `Cedar-surrogate`: 44 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 5 hits
