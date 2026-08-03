@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T10:52:59Z",
+  "generated_at": "2026-08-03T10:53:40Z",
   "registry_statuses": [
     {
       "system": "ISRCTN",
       "type": "isrctn",
       "id": "ISRCTN87634044",
       "url": "https://www.isrctn.com/ISRCTN87634044",
-      "checked_at": "2026-07-27T10:52:41Z",
+      "checked_at": "2026-08-03T10:53:19Z",
       "ok": null,
       "note": "No structured API adapter configured; source page is monitored through source_checks."
     },
@@ -15,7 +15,7 @@
       "type": "isrctn",
       "id": "ISRCTN62461807",
       "url": "https://www.isrctn.com/ISRCTN62461807",
-      "checked_at": "2026-07-27T10:52:41Z",
+      "checked_at": "2026-08-03T10:53:19Z",
       "ok": null,
       "note": "No structured API adapter configured; source page is monitored through source_checks."
     },
@@ -24,7 +24,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05178901",
       "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05178901",
-      "checked_at": "2026-07-27T10:52:41Z",
+      "checked_at": "2026-08-03T10:53:19Z",
       "ok": true,
       "error": null,
       "status_code": 200,
@@ -68,7 +68,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT06221813",
       "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT06221813",
-      "checked_at": "2026-07-27T10:52:41Z",
+      "checked_at": "2026-08-03T10:53:19Z",
       "ok": true,
       "error": null,
       "status_code": 200,
@@ -124,7 +124,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT04199169",
       "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT04199169",
-      "checked_at": "2026-07-27T10:52:41Z",
+      "checked_at": "2026-08-03T10:53:20Z",
       "ok": true,
       "error": null,
       "status_code": 200,
@@ -170,7 +170,7 @@
       "type": "clinicaltrials_gov",
       "id": "NCT05398796",
       "api_url": "https://clinicaltrials.gov/api/v2/studies/NCT05398796",
-      "checked_at": "2026-07-27T10:52:42Z",
+      "checked_at": "2026-08-03T10:53:20Z",
       "ok": true,
       "error": null,
       "status_code": 200,
@@ -213,7 +213,7 @@
       "type": "eu_ctis",
       "id": "2025-522293-37-00",
       "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en",
-      "checked_at": "2026-07-27T10:52:42Z",
+      "checked_at": "2026-08-03T10:53:20Z",
       "ok": null,
       "note": "No structured API adapter configured; source page is monitored through source_checks."
     }

@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-07-27T10:52:59Z
+Generated: 2026-08-03T10:53:40Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -110,11 +110,11 @@ Review flags: 36
 - `Gennova-saRNA-Nipah`: 2 hits
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 78 hits
-- `Nipah-nanoparticle`: 379 hits
+- `Nipah-nanoparticle`: 380 hits
 - `broad-henipavirus-Fc`: 183 hits
 - `Nipah-VLP`: 1125 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1094 hits
+- `live-attenuated-Nipah`: 1115 hits
 - `Equivac-HeV`: 91 hits
 - `Cedar-surrogate`: 44 hits
 - `non-NiV-HeV-surveillance`: 4 hits
