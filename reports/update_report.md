@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-08-03T10:53:40Z
+Generated: 2026-08-10T08:55:01Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -56,6 +56,7 @@ Review flags: 36
 
 - **warning** `niv-chadox1-phase2-ongoing` — Source returned HTTP 403: https://www.ox.ac.uk/news/2025-12-15-worlds-first-phase-ii-nipah-virus-vaccine-trial-launch
 - **warning** `niv-chadox1-phase2-ongoing` — Source returned HTTP 403: https://europepmc.org/search?query=%22ChAdOx1%20NipahB%22%20OR%20%22ChAdOx1%20NiV%22
+- **warning** `niv-phv02-phase2-planned` — Source returned HTTP 403: https://phvaccines.com/PHV02.html
 - **warning** `niv-phv02-phase2-planned` — Source returned HTTP 403: https://europepmc.org/search?query=PHV02%20Nipah%20vaccine
 - **review** `niv-phv02-phase2-planned` — NCT05178901 reports COMPLETED; review whether the curated stage still describes the public pathway.
 - **review** `niv-phv02-phase2-planned` — NCT06221813 reports COMPLETED; review whether the curated stage still describes the public pathway.
@@ -63,8 +64,7 @@ Review flags: 36
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
 - **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
 - **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
-- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
-- **review** `niv-mvniv-phase1-started` — Source title may indicate a stale/broken page: Page not found | Belgian Biosafety Server
+- **warning** `niv-mvniv-phase1-started` — Source fetch error for https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus: ReadTimeout: HTTPSConnectionPool(host='www.biosafety.be', port=443): Read timed out. (read timeout=25)
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine
 - **warning** `niv-cd40-targeted-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=CD40%20Nipah%20vaccine
 - **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 404: https://www.nature.com/articles/s41541-024-00943-y
@@ -112,9 +112,9 @@ Review flags: 36
 - `CD40-NiV`: 78 hits
 - `Nipah-nanoparticle`: 380 hits
 - `broad-henipavirus-Fc`: 183 hits
-- `Nipah-VLP`: 1125 hits
+- `Nipah-VLP`: 1127 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1115 hits
+- `live-attenuated-Nipah`: 1128 hits
 - `Equivac-HeV`: 91 hits
 - `Cedar-surrogate`: 44 hits
 - `non-NiV-HeV-surveillance`: 4 hits
