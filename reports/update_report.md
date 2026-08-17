@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-08-10T08:55:01Z
+Generated: 2026-08-17T08:05:35Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 36
+Review flags: 38
 
 ## Stage counts
 
@@ -56,7 +56,6 @@ Review flags: 36
 
 - **warning** `niv-chadox1-phase2-ongoing` — Source returned HTTP 403: https://www.ox.ac.uk/news/2025-12-15-worlds-first-phase-ii-nipah-virus-vaccine-trial-launch
 - **warning** `niv-chadox1-phase2-ongoing` — Source returned HTTP 403: https://europepmc.org/search?query=%22ChAdOx1%20NipahB%22%20OR%20%22ChAdOx1%20NiV%22
-- **warning** `niv-phv02-phase2-planned` — Source returned HTTP 403: https://phvaccines.com/PHV02.html
 - **warning** `niv-phv02-phase2-planned` — Source returned HTTP 403: https://europepmc.org/search?query=PHV02%20Nipah%20vaccine
 - **review** `niv-phv02-phase2-planned` — NCT05178901 reports COMPLETED; review whether the curated stage still describes the public pathway.
 - **review** `niv-phv02-phase2-planned` — NCT06221813 reports COMPLETED; review whether the curated stage still describes the public pathway.
@@ -64,7 +63,9 @@ Review flags: 36
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
 - **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
 - **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
-- **warning** `niv-mvniv-phase1-started` — Source fetch error for https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus: ReadTimeout: HTTPSConnectionPool(host='www.biosafety.be', port=443): Read timed out. (read timeout=25)
+- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en
+- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
+- **review** `niv-mvniv-phase1-started` — Source title may indicate a stale/broken page: Page not found | Belgian Biosafety Server
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine
 - **warning** `niv-cd40-targeted-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=CD40%20Nipah%20vaccine
 - **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 404: https://www.nature.com/articles/s41541-024-00943-y
@@ -80,6 +81,7 @@ Review flags: 36
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
+- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ConnectTimeout: HTTPSConnectionPool(host='grantome.com', port=443): Max retries exceeded with url: /grant/NIH/R21-AI137813-02 (Caused by ConnectTimeoutError(<HTTPSConnection(host='grantome.com', port=443) at 0x7fc0d2efd3d0>, 'Connection to grantome.com timed out. (connect timeout=25)'))
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
@@ -106,17 +108,17 @@ Review flags: 36
 - `ChAdOx1-NipahB`: 26 hits
 - `PHV02`: 24 hits
 - `HeV-sG-V`: 21 hits
-- `mRNA-1215`: 60 hits
+- `mRNA-1215`: 59 hits
 - `Gennova-saRNA-Nipah`: 2 hits
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 78 hits
-- `Nipah-nanoparticle`: 380 hits
-- `broad-henipavirus-Fc`: 183 hits
-- `Nipah-VLP`: 1127 hits
+- `Nipah-nanoparticle`: 379 hits
+- `broad-henipavirus-Fc`: 184 hits
+- `Nipah-VLP`: 1126 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1128 hits
+- `live-attenuated-Nipah`: 1132 hits
 - `Equivac-HeV`: 91 hits
-- `Cedar-surrogate`: 44 hits
+- `Cedar-surrogate`: 45 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 5 hits
 - `m102.4`: 117 hits

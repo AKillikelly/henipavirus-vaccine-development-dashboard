@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:55:01Z",
+  "generated_at": "2026-08-17T08:05:35Z",
   "publication_statuses": [
     {
       "system": "Europe PMC",
@@ -8,7 +8,7 @@
       "query": "\"ChAdOx1 NipahB\" OR \"ChAdOx1 NiV\"",
       "url": "https://europepmc.org/search?query=%22ChAdOx1%20NipahB%22%20OR%20%22ChAdOx1%20NiV%22",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:42Z",
+      "checked_at": "2026-08-17T08:05:20Z",
       "ok": true,
       "result_count": 26,
       "top_results": [
@@ -68,7 +68,7 @@
       "query": "PHV02 Nipah vaccine",
       "url": "https://europepmc.org/search?query=PHV02%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:43Z",
+      "checked_at": "2026-08-17T08:05:21Z",
       "ok": true,
       "result_count": 24,
       "top_results": [
@@ -128,7 +128,7 @@
       "query": "\"HeV-sG-V\" Nipah vaccine",
       "url": "https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:44Z",
+      "checked_at": "2026-08-17T08:05:22Z",
       "ok": true,
       "result_count": 21,
       "top_results": [
@@ -188,9 +188,9 @@
       "query": "\"mRNA-1215\" Nipah",
       "url": "https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:45Z",
+      "checked_at": "2026-08-17T08:05:23Z",
       "ok": true,
-      "result_count": 60,
+      "result_count": 59,
       "top_results": [
         {
           "title": "The Nipah virus threat in India: Epidemiological trends, risk drivers, and lessons for pandemic preparedness.",
@@ -248,7 +248,7 @@
       "query": "Gennova self-amplifying mRNA Nipah vaccine",
       "url": "https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:45Z",
+      "checked_at": "2026-08-17T08:05:24Z",
       "ok": true,
       "result_count": 2,
       "top_results": [
@@ -281,7 +281,7 @@
       "query": "\"MV-NiV\" Nipah vaccine",
       "url": "https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:47Z",
+      "checked_at": "2026-08-17T08:05:24Z",
       "ok": true,
       "result_count": 4,
       "top_results": [
@@ -332,7 +332,7 @@
       "query": "CD40 Nipah vaccine",
       "url": "https://europepmc.org/search?query=CD40%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:47Z",
+      "checked_at": "2026-08-17T08:05:25Z",
       "ok": true,
       "result_count": 78,
       "top_results": [
@@ -392,9 +392,9 @@
       "query": "Nipah nanoparticle vaccine",
       "url": "https://europepmc.org/search?query=Nipah%20nanoparticle%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:48Z",
+      "checked_at": "2026-08-17T08:05:26Z",
       "ok": true,
-      "result_count": 380,
+      "result_count": 379,
       "top_results": [
         {
           "title": "Challenges, Advances, and Future Directions in Nipah Virus Vaccine Development.",
@@ -452,9 +452,9 @@
       "query": "broad henipavirus Fc vaccine",
       "url": "https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:49Z",
+      "checked_at": "2026-08-17T08:05:27Z",
       "ok": true,
-      "result_count": 183,
+      "result_count": 184,
       "top_results": [
         {
           "title": "The Nipah virus threat in India: Epidemiological trends, risk drivers, and lessons for pandemic preparedness.",
@@ -512,9 +512,9 @@
       "query": "Nipah virus-like particle vaccine",
       "url": "https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:50Z",
+      "checked_at": "2026-08-17T08:05:27Z",
       "ok": true,
-      "result_count": 1127,
+      "result_count": 1126,
       "top_results": [
         {
           "title": "mRNA vaccines against viral pathogens: molecular design, delivery systems, and clinical applications",
@@ -572,7 +572,7 @@
       "query": "DNA-launched Nipah virus vaccines therapeutics",
       "url": "https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:51Z",
+      "checked_at": "2026-08-17T08:05:29Z",
       "ok": true,
       "result_count": 99,
       "top_results": [
@@ -632,9 +632,9 @@
       "query": "live attenuated Nipah vaccine",
       "url": "https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:53Z",
+      "checked_at": "2026-08-17T08:05:29Z",
       "ok": true,
-      "result_count": 1128,
+      "result_count": 1132,
       "top_results": [
         {
           "title": "mRNA vaccines against viral pathogens: molecular design, delivery systems, and clinical applications",
@@ -692,7 +692,7 @@
       "query": "Equivac HeV Hendra vaccine",
       "url": "https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:54Z",
+      "checked_at": "2026-08-17T08:05:30Z",
       "ok": true,
       "result_count": 91,
       "top_results": [
@@ -752,10 +752,19 @@
       "query": "Cedar virus surrogate henipavirus",
       "url": "https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:54Z",
+      "checked_at": "2026-08-17T08:05:31Z",
       "ok": true,
-      "result_count": 44,
+      "result_count": 45,
       "top_results": [
+        {
+          "title": "Dihydroorotate Dehydrogenase Inhibitors are Potent Antiviral Agents against Henipaviruses and Arenaviruses.",
+          "journal": "Antiviral Res",
+          "year": "2026",
+          "pmid": "42580486",
+          "doi": "10.1016/j.antiviral.2026.106507",
+          "source": "MED",
+          "first_publication_date": "2026-08-11"
+        },
         {
           "title": "Developmental candidate GHP-88310/EIDD-3608 with high tolerability and oral efficacy in measles and respiratory paramyxovirus models.",
           "journal": "Sci Adv",
@@ -791,15 +800,6 @@
           "doi": "10.1016/j.celrep.2026.117074",
           "source": "MED",
           "first_publication_date": "2026-03-12"
-        },
-        {
-          "title": "Screening of FDA-approved drugs using a recombinant Cedar virus to improve treatment options for Nipah virus infection.",
-          "journal": "J Gen Virol",
-          "year": "2026",
-          "pmid": "41649863",
-          "doi": "10.1099/jgv.0.002195",
-          "source": "MED",
-          "first_publication_date": "2026-02-01"
         }
       ],
       "error": null,
@@ -812,7 +812,7 @@
       "query": "Ghanaian bat henipavirus Mojiang Angavokely vaccine",
       "url": "https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:56Z",
+      "checked_at": "2026-08-17T08:05:31Z",
       "ok": true,
       "result_count": 4,
       "top_results": [
@@ -863,7 +863,7 @@
       "query": "Salt Gully virus henipavirus",
       "url": "https://europepmc.org/search?query=%22Salt%20Gully%20virus%22%20henipavirus",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:56Z",
+      "checked_at": "2026-08-17T08:05:32Z",
       "ok": true,
       "result_count": 5,
       "top_results": [
@@ -923,7 +923,7 @@
       "query": "m102.4 henipavirus phase 1",
       "url": "https://europepmc.org/search?query=m102.4%20henipavirus%20phase%201",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:57Z",
+      "checked_at": "2026-08-17T08:05:32Z",
       "ok": true,
       "result_count": 117,
       "top_results": [
@@ -983,7 +983,7 @@
       "query": "MBP1F5 Nipah",
       "url": "https://europepmc.org/search?query=MBP1F5%20Nipah",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:58Z",
+      "checked_at": "2026-08-17T08:05:33Z",
       "ok": true,
       "result_count": 3,
       "top_results": [
@@ -1025,7 +1025,7 @@
       "query": "remdesivir Nipah virus African green monkeys",
       "url": "https://europepmc.org/search?query=remdesivir%20Nipah%20virus%20African%20green%20monkeys",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:54:59Z",
+      "checked_at": "2026-08-17T08:05:34Z",
       "ok": true,
       "result_count": 76,
       "top_results": [
@@ -1085,7 +1085,7 @@
       "query": "favipiravir Nipah hamster",
       "url": "https://europepmc.org/search?query=favipiravir%20Nipah%20hamster",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-08-10T08:55:00Z",
+      "checked_at": "2026-08-17T08:05:34Z",
       "ok": true,
       "result_count": 102,
       "top_results": [
