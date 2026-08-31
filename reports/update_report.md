@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-08-24T08:08:59Z
+Generated: 2026-08-31T15:12:13Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 36
+Review flags: 38
 
 ## Stage counts
 
@@ -63,12 +63,13 @@ Review flags: 36
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
 - **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
 - **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
+- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
 - **review** `niv-mvniv-phase1-started` — Source title may indicate a stale/broken page: Page not found | Belgian Biosafety Server
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine
 - **warning** `niv-cd40-targeted-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=CD40%20Nipah%20vaccine
 - **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 404: https://www.nature.com/articles/s41541-024-00943-y
-- **review** `niv-g-nanoparticle-preclinical` — Source title may indicate a stale/broken page: Page not found | Nature
+- **review** `niv-g-nanoparticle-preclinical` — Source title may indicate a stale/broken page: Page Not Found | nature.com
 - **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 403: https://www.sciencedirect.com/science/article/pii/S1995820X2400144X
 - **warning** `niv-g-nanoparticle-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20nanoparticle%20vaccine
 - **warning** `hnv-fc-broad-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine
@@ -80,6 +81,7 @@ Review flags: 36
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
+- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
@@ -111,10 +113,10 @@ Review flags: 36
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 79 hits
 - `Nipah-nanoparticle`: 382 hits
-- `broad-henipavirus-Fc`: 184 hits
+- `broad-henipavirus-Fc`: 185 hits
 - `Nipah-VLP`: 1130 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1139 hits
+- `live-attenuated-Nipah`: 1155 hits
 - `Equivac-HeV`: 92 hits
 - `Cedar-surrogate`: 45 hits
 - `non-NiV-HeV-surveillance`: 4 hits
