@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-08-31T15:12:13Z
+Generated: 2026-09-07T13:34:40Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 38
+Review flags: 36
 
 ## Stage counts
 
@@ -63,7 +63,6 @@ Review flags: 38
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
 - **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
 - **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
-- **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
 - **review** `niv-mvniv-phase1-started` — Source title may indicate a stale/broken page: Page not found | Belgian Biosafety Server
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 403: https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine
@@ -81,7 +80,6 @@ Review flags: 38
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
-- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
@@ -105,26 +103,26 @@ Review flags: 38
 
 ## Publication watches
 
-- `ChAdOx1-NipahB`: 26 hits
-- `PHV02`: 24 hits
-- `HeV-sG-V`: 21 hits
-- `mRNA-1215`: 60 hits
+- `ChAdOx1-NipahB`: 28 hits
+- `PHV02`: 26 hits
+- `HeV-sG-V`: 23 hits
+- `mRNA-1215`: 64 hits
 - `Gennova-saRNA-Nipah`: 3 hits
 - `MV-NiV`: 4 hits
-- `CD40-NiV`: 79 hits
-- `Nipah-nanoparticle`: 382 hits
-- `broad-henipavirus-Fc`: 185 hits
-- `Nipah-VLP`: 1130 hits
+- `CD40-NiV`: 82 hits
+- `Nipah-nanoparticle`: 386 hits
+- `broad-henipavirus-Fc`: 189 hits
+- `Nipah-VLP`: 1140 hits
 - `DNA-launched-Nipah`: 99 hits
-- `live-attenuated-Nipah`: 1155 hits
-- `Equivac-HeV`: 92 hits
+- `live-attenuated-Nipah`: 1197 hits
+- `Equivac-HeV`: 93 hits
 - `Cedar-surrogate`: 45 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 5 hits
-- `m102.4`: 118 hits
+- `m102.4`: 120 hits
 - `MBP1F5`: 3 hits
 - `remdesivir-Nipah`: 77 hits
-- `favipiravir-Nipah`: 102 hits
+- `favipiravir-Nipah`: 105 hits
 
 ## Source domains
 
