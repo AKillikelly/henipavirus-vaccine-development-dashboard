@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-09-28T15:39:42Z
+Generated: 2026-10-05T16:12:00Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -80,7 +80,7 @@ Review flags: 37
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
-- **warning** `hev-human-specific-gap` — Source fetch error for https://www.who.int/teams/blueprint/nipah-henipaviruses: ReadTimeout: HTTPSConnectionPool(host='www.who.int', port=443): Read timed out. (read timeout=25)
+- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ReadTimeout: HTTPSConnectionPool(host='grantome.com', port=443): Read timed out. (read timeout=25)
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
@@ -105,24 +105,24 @@ Review flags: 37
 ## Publication watches
 
 - `ChAdOx1-NipahB`: 30 hits
-- `PHV02`: 30 hits
-- `HeV-sG-V`: 26 hits
+- `PHV02`: 31 hits
+- `HeV-sG-V`: 27 hits
 - `mRNA-1215`: 69 hits
 - `Gennova-saRNA-Nipah`: 3 hits
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 84 hits
 - `Nipah-nanoparticle`: 399 hits
 - `broad-henipavirus-Fc`: 193 hits
-- `Nipah-VLP`: 1158 hits
+- `Nipah-VLP`: 1159 hits
 - `DNA-launched-Nipah`: 102 hits
-- `live-attenuated-Nipah`: 1221 hits
+- `live-attenuated-Nipah`: 1220 hits
 - `Equivac-HeV`: 94 hits
 - `Cedar-surrogate`: 47 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 5 hits
-- `m102.4`: 124 hits
+- `m102.4`: 125 hits
 - `MBP1F5`: 3 hits
-- `remdesivir-Nipah`: 79 hits
+- `remdesivir-Nipah`: 80 hits
 - `favipiravir-Nipah`: 106 hits
 
 ## Source domains
