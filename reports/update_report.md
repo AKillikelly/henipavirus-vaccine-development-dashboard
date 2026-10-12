@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-10-05T16:12:00Z
+Generated: 2026-10-12T16:50:18Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -105,25 +105,25 @@ Review flags: 37
 ## Publication watches
 
 - `ChAdOx1-NipahB`: 30 hits
-- `PHV02`: 31 hits
+- `PHV02`: 32 hits
 - `HeV-sG-V`: 27 hits
 - `mRNA-1215`: 69 hits
 - `Gennova-saRNA-Nipah`: 3 hits
 - `MV-NiV`: 4 hits
-- `CD40-NiV`: 84 hits
-- `Nipah-nanoparticle`: 399 hits
-- `broad-henipavirus-Fc`: 193 hits
-- `Nipah-VLP`: 1159 hits
-- `DNA-launched-Nipah`: 102 hits
-- `live-attenuated-Nipah`: 1220 hits
-- `Equivac-HeV`: 94 hits
-- `Cedar-surrogate`: 47 hits
+- `CD40-NiV`: 82 hits
+- `Nipah-nanoparticle`: 392 hits
+- `broad-henipavirus-Fc`: 186 hits
+- `Nipah-VLP`: 1140 hits
+- `DNA-launched-Nipah`: 101 hits
+- `live-attenuated-Nipah`: 1181 hits
+- `Equivac-HeV`: 93 hits
+- `Cedar-surrogate`: 46 hits
 - `non-NiV-HeV-surveillance`: 4 hits
-- `Salt-Gully-virus`: 5 hits
+- `Salt-Gully-virus`: 6 hits
 - `m102.4`: 125 hits
 - `MBP1F5`: 3 hits
-- `remdesivir-Nipah`: 80 hits
-- `favipiravir-Nipah`: 106 hits
+- `remdesivir-Nipah`: 79 hits
+- `favipiravir-Nipah`: 105 hits
 
 ## Source domains
 
