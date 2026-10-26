@@ -1,6 +1,6 @@
 # Dashboard update report
 
-Generated: 2026-10-19T14:46:57Z
+Generated: 2026-10-26T14:25:34Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
@@ -61,6 +61,7 @@ Review flags: 37
 - **review** `niv-phv02-phase2-planned` — NCT06221813 reports COMPLETED; review whether the curated stage still describes the public pathway.
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://doi.org/10.1016/S0140-6736(25)01390-X
 - **warning** `niv-hev-sg-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine
+- **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://www.nih.gov/news-events/news-releases/nih-launches-clinical-trial-mrna-nipah-virus-vaccine
 - **warning** `niv-mrna1215-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah
 - **warning** `niv-gennova-sarna-ind-enabling` — Source returned HTTP 403: https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine
 - **warning** `niv-mvniv-phase1-started` — Source returned HTTP 404: https://www.biosafety.be/content/mv-niv-recombinant-measles-virus-vector-vaccine-against-nipah-virus
@@ -75,17 +76,16 @@ Review flags: 37
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://www.researchgate.net/publication/318988373_A_VLP-based_vaccine_provides_complete_protection_against_Nipah_virus_challenge_following_multiple-dose_or_single-dose_vaccination_schedules_in_a_hamster_model
 - **warning** `niv-vlp-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine
 - **warning** `niv-dna-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics
-- **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://www.niaid.nih.gov/research/vsv-based-nipah-virus-vaccine
 - **warning** `niv-live-attenuated-preclinical` — Source returned HTTP 403: https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
-- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ReadTimeout: HTTPSConnectionPool(host='grantome.com', port=443): Read timed out. (read timeout=25)
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
 - **warning** `salt-gully-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=%22Salt%20Gully%20virus%22%20henipavirus
 - **warning** `tx-m1024-phase1-results-published` — Source returned HTTP 403: https://doi.org/10.1016/S1473-3099(19)30634-6
+- **warning** `tx-m1024-phase1-results-published` — Source fetch error for https://www.dha.mil/News/2025/04/25/14/04/USU-developed-monoclonal-antibody-against-Nipah-virus-recognized-as-top-innovation: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 - **warning** `tx-m1024-phase1-results-published` — Source returned HTTP 403: https://europepmc.org/search?query=m102.4%20henipavirus%20phase%201
 - **warning** `tx-mbp1f5-phase1-planned` — Source returned HTTP 403: https://www.science.org/doi/10.1126/scitranslmed.adl2055
 - **warning** `tx-mbp1f5-phase1-planned` — Source returned HTTP 403: https://europepmc.org/search?query=MBP1F5%20Nipah
@@ -107,23 +107,23 @@ Review flags: 37
 - `ChAdOx1-NipahB`: 30 hits
 - `PHV02`: 33 hits
 - `HeV-sG-V`: 27 hits
-- `mRNA-1215`: 69 hits
+- `mRNA-1215`: 70 hits
 - `Gennova-saRNA-Nipah`: 3 hits
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 84 hits
-- `Nipah-nanoparticle`: 399 hits
-- `broad-henipavirus-Fc`: 192 hits
+- `Nipah-nanoparticle`: 400 hits
+- `broad-henipavirus-Fc`: 194 hits
 - `Nipah-VLP`: 1163 hits
 - `DNA-launched-Nipah`: 102 hits
-- `live-attenuated-Nipah`: 1223 hits
+- `live-attenuated-Nipah`: 1225 hits
 - `Equivac-HeV`: 94 hits
 - `Cedar-surrogate`: 48 hits
 - `non-NiV-HeV-surveillance`: 4 hits
 - `Salt-Gully-virus`: 6 hits
-- `m102.4`: 127 hits
+- `m102.4`: 128 hits
 - `MBP1F5`: 3 hits
-- `remdesivir-Nipah`: 80 hits
-- `favipiravir-Nipah`: 106 hits
+- `remdesivir-Nipah`: 81 hits
+- `favipiravir-Nipah`: 107 hits
 
 ## Source domains
 
