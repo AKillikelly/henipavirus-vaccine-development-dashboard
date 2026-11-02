@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:25:34Z",
+  "generated_at": "2026-11-02T17:14:58Z",
   "publication_statuses": [
     {
       "system": "Europe PMC",
@@ -8,10 +8,19 @@
       "query": "\"ChAdOx1 NipahB\" OR \"ChAdOx1 NiV\"",
       "url": "https://europepmc.org/search?query=%22ChAdOx1%20NipahB%22%20OR%20%22ChAdOx1%20NiV%22",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:12Z",
+      "checked_at": "2026-11-02T17:14:46Z",
       "ok": true,
-      "result_count": 30,
+      "result_count": 31,
       "top_results": [
+        {
+          "title": "Targeted Medical Interventions for the Prevention and Treatment of Viral Hemorrhagic Fever: A Rapid Systematic Review of Updated Intelligence from the 74th Annual Meeting of the American Society of Tropical Medicine and Hygiene.",
+          "journal": "Trop Med Infect Dis",
+          "year": "2026",
+          "pmid": "42931480",
+          "doi": "10.3390/tropicalmed11100296",
+          "source": "MED",
+          "first_publication_date": "2026-10-19"
+        },
         {
           "title": "Hendra virus: research progress on a bat-borne threat lurking at the human-animal interface.",
           "journal": "Front Vet Sci",
@@ -47,15 +56,6 @@
           "doi": "10.3390/vaccines14070584",
           "source": "MED",
           "first_publication_date": "2026-06-30"
-        },
-        {
-          "title": "The Nipah virus threat in India: Epidemiological trends, risk drivers, and lessons for pandemic preparedness.",
-          "journal": "PLoS Pathog",
-          "year": "2026",
-          "pmid": "42160364",
-          "doi": "10.1371/journal.ppat.1014226",
-          "source": "MED",
-          "first_publication_date": "2026-05-20"
         }
       ],
       "error": null,
@@ -68,10 +68,19 @@
       "query": "PHV02 Nipah vaccine",
       "url": "https://europepmc.org/search?query=PHV02%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:13Z",
+      "checked_at": "2026-11-02T17:14:47Z",
       "ok": true,
-      "result_count": 33,
+      "result_count": 34,
       "top_results": [
+        {
+          "title": "Targeted Medical Interventions for the Prevention and Treatment of Viral Hemorrhagic Fever: A Rapid Systematic Review of Updated Intelligence from the 74th Annual Meeting of the American Society of Tropical Medicine and Hygiene.",
+          "journal": "Trop Med Infect Dis",
+          "year": "2026",
+          "pmid": "42931480",
+          "doi": "10.3390/tropicalmed11100296",
+          "source": "MED",
+          "first_publication_date": "2026-10-19"
+        },
         {
           "title": "rVSV-ΔG-EBOV-GP-Nipah-G (also designated PHV02) replication-competent, recombinant vesicular stomatitis virus vaccine for prevention of Nipah virus disease: Standardized template with key considerations for a risk/benefit assessment.",
           "journal": "Vaccine",
@@ -107,15 +116,6 @@
           "doi": "10.3390/v18090958",
           "source": "MED",
           "first_publication_date": "2026-09-01"
-        },
-        {
-          "title": "Hendra virus: research progress on a bat-borne threat lurking at the human-animal interface.",
-          "journal": "Front Vet Sci",
-          "year": "2026",
-          "pmid": "42689109",
-          "doi": "10.3389/fvets.2026.1889103",
-          "source": "MED",
-          "first_publication_date": "2026-08-19"
         }
       ],
       "error": null,
@@ -128,7 +128,7 @@
       "query": "\"HeV-sG-V\" Nipah vaccine",
       "url": "https://europepmc.org/search?query=%22HeV-sG-V%22%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:14Z",
+      "checked_at": "2026-11-02T17:14:48Z",
       "ok": true,
       "result_count": 27,
       "top_results": [
@@ -188,7 +188,7 @@
       "query": "\"mRNA-1215\" Nipah",
       "url": "https://europepmc.org/search?query=%22mRNA-1215%22%20Nipah",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:15Z",
+      "checked_at": "2026-11-02T17:14:48Z",
       "ok": true,
       "result_count": 70,
       "top_results": [
@@ -248,7 +248,7 @@
       "query": "Gennova self-amplifying mRNA Nipah vaccine",
       "url": "https://europepmc.org/search?query=Gennova%20self-amplifying%20mRNA%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:16Z",
+      "checked_at": "2026-11-02T17:14:49Z",
       "ok": true,
       "result_count": 3,
       "top_results": [
@@ -290,7 +290,7 @@
       "query": "\"MV-NiV\" Nipah vaccine",
       "url": "https://europepmc.org/search?query=%22MV-NiV%22%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:17Z",
+      "checked_at": "2026-11-02T17:14:49Z",
       "ok": true,
       "result_count": 4,
       "top_results": [
@@ -341,7 +341,7 @@
       "query": "CD40 Nipah vaccine",
       "url": "https://europepmc.org/search?query=CD40%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:18Z",
+      "checked_at": "2026-11-02T17:14:50Z",
       "ok": true,
       "result_count": 84,
       "top_results": [
@@ -401,10 +401,37 @@
       "query": "Nipah nanoparticle vaccine",
       "url": "https://europepmc.org/search?query=Nipah%20nanoparticle%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:22Z",
+      "checked_at": "2026-11-02T17:14:50Z",
       "ok": true,
-      "result_count": 400,
+      "result_count": 403,
       "top_results": [
+        {
+          "title": "Multi-pathogen and combination vaccines for biodefense pathogens",
+          "journal": "Front Immunol",
+          "year": null,
+          "pmid": null,
+          "doi": null,
+          "source": "PMC",
+          "first_publication_date": "2026-10-31"
+        },
+        {
+          "title": "The evolving landscape of hybrid viral vector architectures: a persisting niche",
+          "journal": "Front Bioeng Biotechnol",
+          "year": null,
+          "pmid": null,
+          "doi": null,
+          "source": "PMC",
+          "first_publication_date": "2026-10-31"
+        },
+        {
+          "title": "Zoonotic viral spillover: from reservoir ecology and viral evolution to pandemic prevention.",
+          "journal": "Virus Res",
+          "year": "2026",
+          "pmid": "42880507",
+          "doi": "10.1016/j.virusres.2026.199818",
+          "source": "MED",
+          "first_publication_date": "2026-10-15"
+        },
         {
           "title": "Research Progress, Application, and Industrialization Prospects of Circular RNA Vaccines in Viral Diseases.",
           "journal": "Vaccines (Basel)",
@@ -422,33 +449,6 @@
           "doi": "10.3390/v18090958",
           "source": "MED",
           "first_publication_date": "2026-09-01"
-        },
-        {
-          "title": "Evaluation of the contribution of the minor envelope complex glycoprotein 3 ectodomain to the porcine reproductive and respiratory syndrome virus 1 neutralizing antibody response.",
-          "journal": "J Gen Virol",
-          "year": "2026",
-          "pmid": "42690728",
-          "doi": "10.1099/jgv.0.002328",
-          "source": "MED",
-          "first_publication_date": "2026-09-01"
-        },
-        {
-          "title": "A rapid detection of Nipah virus nucleocapsid antigen in inactivated viral cultures.",
-          "journal": "Emerg Microbes Infect",
-          "year": "2026",
-          "pmid": "42565473",
-          "doi": "10.1080/22221751.2026.2716499",
-          "source": "MED",
-          "first_publication_date": "2026-08-24"
-        },
-        {
-          "title": "Epitope-Based Nipah Virus G and F Head-to-Head Dimer mRNA Vaccines Exhibit Distinct Immunogenicity and Immune Profiles.",
-          "journal": "Vaccines (Basel)",
-          "year": "2026",
-          "pmid": "42646735",
-          "doi": "10.3390/vaccines14080718",
-          "source": "MED",
-          "first_publication_date": "2026-08-20"
         }
       ],
       "error": null,
@@ -461,7 +461,7 @@
       "query": "broad henipavirus Fc vaccine",
       "url": "https://europepmc.org/search?query=broad%20henipavirus%20Fc%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:23Z",
+      "checked_at": "2026-11-02T17:14:51Z",
       "ok": true,
       "result_count": 194,
       "top_results": [
@@ -521,10 +521,37 @@
       "query": "Nipah virus-like particle vaccine",
       "url": "https://europepmc.org/search?query=Nipah%20virus-like%20particle%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:24Z",
+      "checked_at": "2026-11-02T17:14:52Z",
       "ok": true,
-      "result_count": 1163,
+      "result_count": 1167,
       "top_results": [
+        {
+          "title": "Multi-pathogen and combination vaccines for biodefense pathogens",
+          "journal": "Front Immunol",
+          "year": null,
+          "pmid": null,
+          "doi": null,
+          "source": "PMC",
+          "first_publication_date": "2026-10-31"
+        },
+        {
+          "title": "The evolving landscape of hybrid viral vector architectures: a persisting niche",
+          "journal": "Front Bioeng Biotechnol",
+          "year": null,
+          "pmid": null,
+          "doi": null,
+          "source": "PMC",
+          "first_publication_date": "2026-10-31"
+        },
+        {
+          "title": "Structure of vesicular stomatitis virus L-P-N&lt;sup&gt;0&lt;/sup&gt; complex by cyro-electron microscopy.",
+          "journal": "Sci Adv",
+          "year": "2026",
+          "pmid": "42950058",
+          "doi": "10.1126/sciadv.aej0664",
+          "source": "MED",
+          "first_publication_date": "2026-10-28"
+        },
         {
           "title": "Serological and transcriptomic response of African fruit bats to immune challenge with recombinant vaccines expressing Ebola or Nipah virus antigens",
           "journal": "R Soc Open Sci",
@@ -535,40 +562,13 @@
           "first_publication_date": "2026-10-07"
         },
         {
-          "title": "Molecular pathogenesis, global epidemiological trends, and treatment strategies for pteropine orthoreoviruses: a narrative review.",
-          "journal": "Emerg Microbes Infect",
+          "title": "Potently neutralizing and protective human monoclonal antibodies against the measles fusion protein trimer.",
+          "journal": "Cell Rep Med",
           "year": "2026",
-          "pmid": "42720549",
-          "doi": "10.1080/22221751.2026.2732705",
+          "pmid": "42805178",
+          "doi": "10.1016/j.xcrm.2026.103081",
           "source": "MED",
-          "first_publication_date": "2026-09-22"
-        },
-        {
-          "title": "Design and Evaluation of a Multi-Epitope Vaccine Targeting Conserved Envelope and NS5 Proteins of Usutu Virus Using Immunoinformatics.",
-          "journal": "Microorganisms",
-          "year": "2026",
-          "pmid": "42795607",
-          "doi": "10.3390/microorganisms14092026",
-          "source": "MED",
-          "first_publication_date": "2026-09-11"
-        },
-        {
-          "title": "Research Progress, Application, and Industrialization Prospects of Circular RNA Vaccines in Viral Diseases.",
-          "journal": "Vaccines (Basel)",
-          "year": "2026",
-          "pmid": "42797601",
-          "doi": "10.3390/vaccines14090781",
-          "source": "MED",
-          "first_publication_date": "2026-09-07"
-        },
-        {
-          "title": "Design of a novel multi-epitope monovalent vaccine against Hantaan virus using an immunoinformatics approach",
-          "journal": "J Genet Eng Biotechnol",
-          "year": "2026",
-          "pmid": null,
-          "doi": null,
-          "source": "PMC",
-          "first_publication_date": "2026-09-01"
+          "first_publication_date": "2026-09-28"
         }
       ],
       "error": null,
@@ -581,7 +581,7 @@
       "query": "DNA-launched Nipah virus vaccines therapeutics",
       "url": "https://europepmc.org/search?query=DNA-launched%20Nipah%20virus%20vaccines%20therapeutics",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:25Z",
+      "checked_at": "2026-11-02T17:14:52Z",
       "ok": true,
       "result_count": 102,
       "top_results": [
@@ -641,10 +641,19 @@
       "query": "live attenuated Nipah vaccine",
       "url": "https://europepmc.org/search?query=live%20attenuated%20Nipah%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:25Z",
+      "checked_at": "2026-11-02T17:14:53Z",
       "ok": true,
-      "result_count": 1225,
+      "result_count": 1228,
       "top_results": [
+        {
+          "title": "Multi-pathogen and combination vaccines for biodefense pathogens",
+          "journal": "Front Immunol",
+          "year": null,
+          "pmid": null,
+          "doi": null,
+          "source": "PMC",
+          "first_publication_date": "2026-10-31"
+        },
         {
           "title": "rVSV-ΔG-EBOV-GP-Nipah-G (also designated PHV02) replication-competent, recombinant vesicular stomatitis virus vaccine for prevention of Nipah virus disease: Standardized template with key considerations for a risk/benefit assessment.",
           "journal": "Vaccine",
@@ -653,6 +662,15 @@
           "doi": "10.1016/j.vaccine.2026.129113",
           "source": "MED",
           "first_publication_date": "2026-10-13"
+        },
+        {
+          "title": "Analyzing Bunyaviruses from a One Health Perspective.",
+          "journal": "Viruses",
+          "year": "2026",
+          "pmid": "42944030",
+          "doi": "10.3390/v18101110",
+          "source": "MED",
+          "first_publication_date": "2026-10-08"
         },
         {
           "title": "Immunological Correlate of Protection by PHV02 Live, Attenuated Recombinant VSV Vaccine Against Nipah Virus Disease Using an Improved Neutralizing Antibody Method, with Considerations for Future Research",
@@ -671,24 +689,6 @@
           "doi": "10.21203/rs.3.rs-10860842/v1",
           "source": "PPR",
           "first_publication_date": "2026-09-29"
-        },
-        {
-          "title": "Molecular pathogenesis, global epidemiological trends, and treatment strategies for pteropine orthoreoviruses: a narrative review.",
-          "journal": "Emerg Microbes Infect",
-          "year": "2026",
-          "pmid": "42720549",
-          "doi": "10.1080/22221751.2026.2732705",
-          "source": "MED",
-          "first_publication_date": "2026-09-22"
-        },
-        {
-          "title": "High-throughput virus quantification using cytopathic effect area analysis.",
-          "journal": "PLoS Comput Biol",
-          "year": "2026",
-          "pmid": "42748173",
-          "doi": "10.1371/journal.pcbi.1013511",
-          "source": "MED",
-          "first_publication_date": "2026-09-16"
         }
       ],
       "error": null,
@@ -701,7 +701,7 @@
       "query": "Equivac HeV Hendra vaccine",
       "url": "https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:26Z",
+      "checked_at": "2026-11-02T17:14:53Z",
       "ok": true,
       "result_count": 94,
       "top_results": [
@@ -761,7 +761,7 @@
       "query": "Cedar virus surrogate henipavirus",
       "url": "https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:27Z",
+      "checked_at": "2026-11-02T17:14:54Z",
       "ok": true,
       "result_count": 48,
       "top_results": [
@@ -821,7 +821,7 @@
       "query": "Ghanaian bat henipavirus Mojiang Angavokely vaccine",
       "url": "https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:28Z",
+      "checked_at": "2026-11-02T17:14:54Z",
       "ok": true,
       "result_count": 4,
       "top_results": [
@@ -872,7 +872,7 @@
       "query": "Salt Gully virus henipavirus",
       "url": "https://europepmc.org/search?query=%22Salt%20Gully%20virus%22%20henipavirus",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:30Z",
+      "checked_at": "2026-11-02T17:14:55Z",
       "ok": true,
       "result_count": 6,
       "top_results": [
@@ -932,10 +932,19 @@
       "query": "m102.4 henipavirus phase 1",
       "url": "https://europepmc.org/search?query=m102.4%20henipavirus%20phase%201",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:31Z",
+      "checked_at": "2026-11-02T17:14:55Z",
       "ok": true,
-      "result_count": 128,
+      "result_count": 129,
       "top_results": [
+        {
+          "title": "Targeted Medical Interventions for the Prevention and Treatment of Viral Hemorrhagic Fever: A Rapid Systematic Review of Updated Intelligence from the 74th Annual Meeting of the American Society of Tropical Medicine and Hygiene.",
+          "journal": "Trop Med Infect Dis",
+          "year": "2026",
+          "pmid": "42931480",
+          "doi": "10.3390/tropicalmed11100296",
+          "source": "MED",
+          "first_publication_date": "2026-10-19"
+        },
         {
           "title": "Peripheral human mAb therapy yields modulation of neuroinflammation and long-term functional recovery from lyssavirus infection.",
           "journal": "Emerg Microbes Infect",
@@ -971,15 +980,6 @@
           "doi": "10.3389/fvets.2026.1889103",
           "source": "MED",
           "first_publication_date": "2026-08-19"
-        },
-        {
-          "title": "Assessing the pandemic potential of Nipah virus: From molecular pathogenesis to ecological spillover risks.",
-          "journal": "Infect Med (Beijing)",
-          "year": "2026",
-          "pmid": "42699591",
-          "doi": "10.1016/j.imj.2026.100279",
-          "source": "MED",
-          "first_publication_date": "2026-07-31"
         }
       ],
       "error": null,
@@ -992,7 +992,7 @@
       "query": "MBP1F5 Nipah",
       "url": "https://europepmc.org/search?query=MBP1F5%20Nipah",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:32Z",
+      "checked_at": "2026-11-02T17:14:56Z",
       "ok": true,
       "result_count": 3,
       "top_results": [
@@ -1034,7 +1034,7 @@
       "query": "remdesivir Nipah virus African green monkeys",
       "url": "https://europepmc.org/search?query=remdesivir%20Nipah%20virus%20African%20green%20monkeys",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:32Z",
+      "checked_at": "2026-11-02T17:14:57Z",
       "ok": true,
       "result_count": 81,
       "top_results": [
@@ -1094,7 +1094,7 @@
       "query": "favipiravir Nipah hamster",
       "url": "https://europepmc.org/search?query=favipiravir%20Nipah%20hamster",
       "api_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
-      "checked_at": "2026-10-26T14:25:33Z",
+      "checked_at": "2026-11-02T17:14:57Z",
       "ok": true,
       "result_count": 107,
       "top_results": [
