@@ -1,12 +1,12 @@
 # Dashboard update report
 
-Generated: 2026-11-02T17:14:58Z
+Generated: 2026-11-09T17:41:35Z
 Mode: network_refresh
 Records: 21
 Sources checked: 80
 Registry watches: 7
 Publication watches: 20
-Review flags: 37
+Review flags: 36
 
 ## Stage counts
 
@@ -80,7 +80,6 @@ Review flags: 37
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 404: https://www.csiro.au/en/news/all/articles/2012/november/hendra-vaccine
 - **review** `hev-equivac-veterinary-licensed` — Source title may indicate a stale/broken page: 404 - Page not found - CSIRO
 - **warning** `hev-equivac-veterinary-licensed` — Source returned HTTP 403: https://europepmc.org/search?query=Equivac%20HeV%20Hendra%20vaccine
-- **warning** `cedar-research-surrogate-only` — Source fetch error for https://grantome.com/grant/NIH/R21-AI137813-02: ReadTimeout: HTTPSConnectionPool(host='grantome.com', port=443): Read timed out. (read timeout=25)
 - **warning** `cedar-research-surrogate-only` — Source returned HTTP 403: https://europepmc.org/search?query=Cedar%20virus%20surrogate%20henipavirus
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://journals.asm.org/doi/10.1128/jvi.00921-22
 - **warning** `ghv-mojv-angv-surveillance-only` — Source returned HTTP 403: https://europepmc.org/search?query=Ghanaian%20bat%20henipavirus%20Mojiang%20Angavokely%20vaccine
@@ -104,23 +103,23 @@ Review flags: 37
 
 ## Publication watches
 
-- `ChAdOx1-NipahB`: 31 hits
-- `PHV02`: 34 hits
+- `ChAdOx1-NipahB`: 32 hits
+- `PHV02`: 33 hits
 - `HeV-sG-V`: 27 hits
 - `mRNA-1215`: 70 hits
 - `Gennova-saRNA-Nipah`: 3 hits
 - `MV-NiV`: 4 hits
 - `CD40-NiV`: 84 hits
-- `Nipah-nanoparticle`: 403 hits
+- `Nipah-nanoparticle`: 404 hits
 - `broad-henipavirus-Fc`: 194 hits
-- `Nipah-VLP`: 1167 hits
+- `Nipah-VLP`: 1168 hits
 - `DNA-launched-Nipah`: 102 hits
-- `live-attenuated-Nipah`: 1228 hits
-- `Equivac-HeV`: 94 hits
+- `live-attenuated-Nipah`: 1230 hits
+- `Equivac-HeV`: 95 hits
 - `Cedar-surrogate`: 48 hits
 - `non-NiV-HeV-surveillance`: 4 hits
-- `Salt-Gully-virus`: 6 hits
-- `m102.4`: 129 hits
+- `Salt-Gully-virus`: 7 hits
+- `m102.4`: 130 hits
 - `MBP1F5`: 3 hits
 - `remdesivir-Nipah`: 81 hits
 - `favipiravir-Nipah`: 107 hits
